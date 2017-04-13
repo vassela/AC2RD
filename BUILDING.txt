@@ -1,5 +1,5 @@
-AC2RD can be built from source either using Eclipse, or Android Studio.
+AC2RD can be built from source either using Eclipse (with ADT Plugin), or Android Studio.
 
-Building with Eclipse:
+Building with Eclipse (with ADT Plugin):
 
 Building with Android Studio:
