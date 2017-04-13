@@ -10,8 +10,8 @@ Building with Eclipse (with ADT Plugin):
   - In the next window, you'll see a list of the tools to be downloaded, then click Next
   - Read and accept the license agreements, then click Finish
   - When the installation completes, restart Eclipse
-  - Select Window > Preferences
-  
+  - In the "Welcome to Android Development" window that appears, select Use existing SDKs (if window that not appears, select Window > Preferences, and click Android)
+  - Browse and select the location of the Android SDK directory you recently downloaded and unpacked, then click Next
 
 Building with Android Studio:
   - Coming soon
