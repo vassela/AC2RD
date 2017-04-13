@@ -5,12 +5,12 @@ Building with Eclipse (with ADT Plugin):
   - ADT Plugin can be downloaded here: https://developer.android.com/studio/tools/sdk/eclipse-adt.html (for the AC2RD project, i used the following version: ADT-23.0.7 downloadable here: https://dl.google.com/android/ADT-23.0.7.zip)
   - Start Eclipse, then select Help > Install New Software
   - Click Add, in the top-right corner
-  - In the Add Repository dialog that appears, enter "ADT Plugin" for the Name and the following URL for the Location: <https://dl-ssl.google.com/android/eclipse/> (or click Archive, and select the ADT Plugin archive)
-  - Click OK
+  - In the Add Repository dialog that appears, enter "ADT Plugin" for the Name and the following URL for the Location: <https://dl-ssl.google.com/android/eclipse/> (or click Archive, and select the offline ADT Plugin archive), then click OK
   - In the Available Software dialog, select the checkbox next to Developer Tools and click Next
   - In the next window, you'll see a list of the tools to be downloaded, then click Next
   - Read and accept the license agreements, then click Finish
   - When the installation completes, restart Eclipse
+  - Select Window > Preferences
   
 
 Building with Android Studio:
