@@ -2,6 +2,16 @@ AC2RD can be built from source either using Eclipse (with ADT Plugin), or Androi
 
 Building with Eclipse (with ADT Plugin):
   - Eclipse can be downloaded here: http://www.eclipse.org/downloads/ (for the AC2RD project, i used the following version: eclipse-SDK-4.4.2-linux-gtk downloadable here: http://archive.eclipse.org/eclipse/downloads/drops4/R-4.4.2-201502041700/)
-  - If you are behind a proxy (which is a traditional setting in a corporate environment), then you need to configure ant to use it. This is explained in the ant documentation here: http://ant.apache.org/manual/proxy.html
+  - ADT Plugin can be downloaded here: https://developer.android.com/studio/tools/sdk/eclipse-adt.html (for the AC2RD project, i used the following version: ADT-23.0.7 downloadable here: https://dl.google.com/android/ADT-23.0.7.zip)
+  - Start Eclipse, then select Help > Install New Software
+  - Click Add, in the top-right corner
+  - In the Add Repository dialog that appears, enter "ADT Plugin" for the Name and the following URL for the Location: <https://dl-ssl.google.com/android/eclipse/> (or click Archive, and select the ADT Plugin archive)
+  - Click OK
+  - In the Available Software dialog, select the checkbox next to Developer Tools and click Next
+  - In the next window, you'll see a list of the tools to be downloaded, then click Next
+  - Read and accept the license agreements, then click Finish
+  - When the installation completes, restart Eclipse
+  
 
 Building with Android Studio:
+  - Coming soon
