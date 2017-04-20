@@ -2,9 +2,14 @@ AC2RD can be built from source either using Eclipse (with ADT Plugin), or Androi
 
 Installing Oracle Java JDK:
   - Oracle Java JDK can be downloaded here: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+  - Retrieve the JDK version for your operating system, and install it (for the AC2RD project, i used java version 1.7)
 
 Installing Android SDK:
   - Android SDK can be downloaded here: http://developer.android.com/sdk/index.html
+  - Retrieve the Android SDK version for your operating system, and install it
+  - Launch Android SDK Manager
+  - If you are behind a proxy, then you need to configure it by selecting Tools > Options in the menu
+  - Select which package you want to download by selecting the checkbox and then click Install (for the AC2RD project, i select Android SDK Tools, Android SDK Platform-tools, and the SDK Platform of the latest API which is version 24)
 
 Building with Eclipse (with ADT Plugin):
   - Eclipse can be downloaded here: http://www.eclipse.org/downloads/ (for the AC2RD project, i used the following version: eclipse-SDK-4.4.2-linux-gtk downloadable here: http://archive.eclipse.org/eclipse/downloads/drops4/R-4.4.2-201502041700/)
