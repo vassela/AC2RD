@@ -25,6 +25,10 @@ Building with Eclipse (with ADT Plugin):
   - When the installation completes, restart Eclipse
   - In the "Welcome to Android Development" window that appears, select Use existing SDKs (if window that not appears, select Window > Preferences, and click Android)
   - Browse and select the location of the Android SDK directory you recently downloaded and unpacked, then click Next
+  - Select File > New > Project
+  - Select Android Project from Existing Code, then click Next
+  - Browse and select the location of the Android Support V7 AppCompat directory, then click OK and Finish
+  - 
 
 Building with Android Studio:
   - Coming soon
