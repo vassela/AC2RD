@@ -28,7 +28,14 @@ Building with Eclipse (with ADT Plugin):
   - Select File > New > Project
   - Select Android Project from Existing Code, then click Next
   - Browse and select the location of the Android Support V7 AppCompat directory, then click OK and Finish
-  - 
+  - Extract the AC2RD source code in your eclipse workspace
+  - Select File > New > Project
+  - Select Android Project from Existing Code, then click Next
+  - Browse and select the location of the AC2RD source code directory, then click OK and Finish
+  - Select Project > Properties
+  - Select Android, and add the android-support-v7-appcompat library, then click Apply
+  - Always in properties, select Java Build Path > Libraries, and uncheck Android Private Libraries, then add android-support-v4.jar and android-support-v7.jar
+  - Now you can build the AC2RD software by selecting the AC2RD project in eclipse, and selecting Run > Run As > Android Application
 
 Building with Android Studio:
   - Coming soon
