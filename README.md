@@ -10,8 +10,8 @@ Features :
 - Widget with shortcuts on main functions
 
 Advanced features :
-- Call Filters
-- Recording when device shake detection
+- Calls filtering
+- Recording on device shake detection
 - Automatic removal of obsolete records (configurable from 1 day to 1 month)
 - Audio spectrum effects : none, lines, or bars
 - Event log
