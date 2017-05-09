@@ -11,9 +11,10 @@ Features :
 Advanced features :
 - Call Filters
 - Recording when device shake detection
-- Automatic removal of obsolete records
+- Automatic removal of obsolete records (configurable from 1 day to 1 month)
 - Audio spectrum effects : none, lines, or bars
 - Event log
+- Notifications : sound, vibration, and LED
 - Several visual themes : light, dark, and light with dark action bar
 - Several colors : light blue, blue, light purple, purple, light green, green, light orange, orange, light red, and red
 
