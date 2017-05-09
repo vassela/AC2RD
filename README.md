@@ -10,7 +10,7 @@ Features :
 - Widget with shortcuts on main functions
 
 Advanced features :
-- Calls filtering
+- Calls filtering (on device contacts)
 - Recording on device shake detection
 - Automatic removal of obsolete records (configurable from 1 day to 1 month)
 - Audio spectrum effects : none, lines, or bars
