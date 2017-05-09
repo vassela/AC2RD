@@ -7,6 +7,7 @@ Features :
 - Supported Audio Formats: 3GPP, MP3, AMR, and WAV
 - Embedded replayer with audio spectrum visualizer
 - Dictaphone
+- Widget with shortcuts on main functions
 
 Advanced features :
 - Call Filters
