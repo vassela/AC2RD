@@ -18,8 +18,8 @@ Advanced features :
 - Automatic removal of obsolete records (configurable from 1 day to 1 month)
 - Possibility of locking important records
 - Audio spectrum effects : none, lines, or bars
-- Event logging
-- Notifications : sound, vibration, and LED
+- Event logging (user actions, and software notification)
+- Event notifications : sound, vibration, and LED
 - Several visual themes : light, dark, and light with dark action bar
 - Customizable theme color : light blue, blue, light purple, purple, light green, green, light orange, orange, light red, and red
 
