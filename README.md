@@ -10,19 +10,11 @@ Features :
 - Widget with shortcuts on main functions
 
 </br>
-
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_splashscreen.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_splashscreen.png" align="left" height="200" width="120" ></a>
-
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_terms_of_use.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_terms_of_use.png" align="left" height="200" width="120" ></a>
-
-
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home.png" align="left" height="200" width="120" ></a>
-
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_slide_menu.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_slide_menu.png" align="left" height="200" width="120" ></a>
-
-
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png" align="left" height="200" width="120" ></a>
-
 </br>
 
 Advanced features :
