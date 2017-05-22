@@ -9,7 +9,7 @@ Features :
 - Dictaphone
 - Widget with shortcuts on main functions
 
-![Screenshot](https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_splashscreen.png){:height="50%" width="50%"} ![Screenshot](https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_terms_of_use.png) ![Screenshot](https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home.png) ![Screenshot](https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_slide_menu.png) ![Screenshot](https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png)
+![Screenshot](https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_splashscreen.png) ![Screenshot](https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_terms_of_use.png) ![Screenshot](https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home.png) ![Screenshot](https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_slide_menu.png) ![Screenshot](https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png)
 
 
 Advanced features :
