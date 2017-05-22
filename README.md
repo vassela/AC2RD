@@ -9,6 +9,8 @@ Features :
 - Dictaphone
 - Widget with shortcuts on main functions
 
+![Screenshot](https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home.png)
+
 Advanced features :
 - Calls filtering on device contacts
 - Recording on device shake detection
