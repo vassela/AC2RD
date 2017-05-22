@@ -17,6 +17,9 @@ Features :
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png" align="left" height="200" width="120" ></a>
 </br>
 
+
+
+
 Advanced features :
 - Calls filtering on device contacts
 - Recording on device shake detection
