@@ -30,6 +30,12 @@ Advanced features :
 - Several visual themes : light, dark, and light with dark action bar
 - Customizable theme color : light blue, blue, light purple, purple, light green, green, light orange, orange, light red, and red
 
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_1.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_1.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_2.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_2.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_3.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_3.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_4.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_4.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_5.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_5.png" align="center" height="200" width="120" ></a>
+
 Compatibility :
 - Supported Android versions: 2.3 to 7.0, or up
 - Supported languages : English, and French
