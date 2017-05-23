@@ -47,6 +47,8 @@ Advanced features :
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records_actions.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records_actions.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records_info.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records_info.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_bars.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_bars.png" align="center" height="200" width="120" ></a>
 </br></br>
 
 Compatibility :
