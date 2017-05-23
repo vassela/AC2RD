@@ -14,6 +14,7 @@ Features :
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_slide_menu.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_slide_menu.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png" align="center" height="200" width="120" ></a>
 
 Advanced features :
 - Calls filtering on device contacts
