@@ -50,6 +50,20 @@ Advanced features :
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_bars.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_bars.png" align="center" height="200" width="120" ></a>
 </br></br>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_with_dark_action_bar.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_with_dark_action_bar.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_dark.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_dark.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light.png" align="center" height="200" width="120" ></a>
+</br></br>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_blue.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_blue.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_blue.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_blue.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_purple.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_purple.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_purple.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_purple.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_green.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_green.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_green.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_green.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_orange.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_orange.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_orange.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_orange.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_red.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_red.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_red.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_red.png" align="center" height="200" width="120" ></a>
 
 Compatibility :
 - Supported Android versions: 2.3 to 7.0, or up
