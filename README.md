@@ -44,6 +44,10 @@ Advanced features :
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_recording_phone.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_recording_phone.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_recording_dictaphone.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_recording_dictaphone.png" align="center" height="200" width="120" ></a>
 </br></br>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records_actions.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records_actions.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records_info.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records_info.png" align="center" height="200" width="120" ></a>
+</br></br>
 
 Compatibility :
 - Supported Android versions: 2.3 to 7.0, or up
