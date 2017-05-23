@@ -35,10 +35,15 @@ Advanced features :
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_3.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_3.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_4.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_4.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_5.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_5.png" align="center" height="200" width="120" ></a>
-</br>
+</br></br>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_actions.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_actions.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_info.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_info.png" align="center" height="200" width="120" ></a>
+</br></br>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_recorder_on.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_recorder_on.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_recording_phone.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_recording_phone.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_recording_dictaphone.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_recording_dictaphone.png" align="center" height="200" width="120" ></a>
+</br></br>
 
 Compatibility :
 - Supported Android versions: 2.3 to 7.0, or up
