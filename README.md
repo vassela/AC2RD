@@ -29,8 +29,7 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 - Audio spectrum effects : none, lines, or bars
 - Event logging (user actions, and software notification)
 - Event notifications : sound, vibration, and LED
-- Several visual themes
-- Customizable theme color
+- Several visual themes with customizable colors
 
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_1.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_1.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_2.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_2.png" align="center" height="200" width="120" ></a>
@@ -38,7 +37,7 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_4.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_4.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_5.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_5.png" align="center" height="200" width="120" ></a>
 </br>
-<i>Preferences</i>
+<i>Software settings</i>
 </br></br>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_actions.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_actions.png" align="center" height="200" width="120" ></a>
