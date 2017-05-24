@@ -29,8 +29,8 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 - Audio spectrum effects : none, lines, or bars
 - Event logging (user actions, and software notification)
 - Event notifications : sound, vibration, and LED
-- Several visual themes : light, dark, and light with dark action bar
-- Customizable theme color : light blue, blue, light purple, purple, light green, green, light orange, orange, light red, and red
+- Several visual themes
+- Customizable theme color
 
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_1.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_1.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_2.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_2.png" align="center" height="200" width="120" ></a>
@@ -56,7 +56,7 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_dark.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_dark.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light.png" align="center" height="200" width="120" ></a>
 </br>
-<i>Visual themes</i>
+<i>Visual themes (light with dark action bar, dark, and light)</i>
 </br></br>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_blue.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_blue.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_blue.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_blue.png" align="center" height="200" width="120" ></a>
@@ -69,7 +69,7 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_red.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_red.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_red.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_red.png" align="center" height="200" width="120" ></a>
 </br>
-<i>Theme colors</i>
+<i>Theme colors (light blue, blue, light purple, purple, light green, green, light orange, orange, light red, and red)</i>
 
 ## Compatibility :
 - Supported Android versions: 2.3 to 7.0, or up
