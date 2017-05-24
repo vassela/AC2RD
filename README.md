@@ -35,6 +35,7 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_3.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_3.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_4.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_4.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_5.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_5.png" align="center" height="200" width="120" ></a>
+</br></br>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_actions.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_actions.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_info.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_info.png" align="center" height="200" width="120" ></a>
@@ -46,9 +47,11 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records_info.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records_info.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_bars.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_bars.png" align="center" height="200" width="120" ></a>
+</br></br>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_with_dark_action_bar.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_with_dark_action_bar.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_dark.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_dark.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light.png" align="center" height="200" width="120" ></a>
+</br></br>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_blue.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_blue.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_blue.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_blue.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_purple.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_purple.png" align="center" height="200" width="120" ></a>
