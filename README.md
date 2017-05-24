@@ -63,6 +63,12 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 </br>
 <i>Replayer interface</i>
 </br></br>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_widget.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_widget.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_widget_recording_dictaphone.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_widget_recording_dictaphone.png" align="center" height="200" width="120" ></a>
+<a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_widget_recording_phone.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_widget_recording_phone.png" align="center" height="200" width="120" ></a>
+</br>
+<i>Widget</i>
+</br></br>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_with_dark_action_bar.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_with_dark_action_bar.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_dark.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_dark.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light.png" align="center" height="200" width="120" ></a>
