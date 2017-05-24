@@ -2,7 +2,7 @@
 
 AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone calls recording software developed for the mobile operating system Android, including the functionality of replayer, and that of dictaphone.
 
-## Features :
+## Main features :
 - Automatic phone incoming / outgoing calls recording
 - Supported Audio Formats: 3GPP, MP3, AMR, and WAV
 - Embedded replayer with audio spectrum visualizer
@@ -15,6 +15,8 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_slide_menu.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_home_slide_menu.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png" align="center" height="200" width="120" ></a>
+</br>
+<i>Main features</i>
 
 ## Advanced features :
 - Calls filtering on device contacts
@@ -35,6 +37,8 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_3.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_3.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_4.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_4.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_5.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_preferences_5.png" align="center" height="200" width="120" ></a>
+</br>
+<i>Preferences</i>
 </br></br>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_actions.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_call_filters_actions.png" align="center" height="200" width="120" ></a>
@@ -51,6 +55,8 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_with_dark_action_bar.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_with_dark_action_bar.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_dark.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_dark.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light.png" align="center" height="200" width="120" ></a>
+</br>
+<i>Visual themes</i>
 </br></br>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_blue.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_blue.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_blue.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_blue.png" align="center" height="200" width="120" ></a>
@@ -63,7 +69,7 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_red.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_red.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_red.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_red.png" align="center" height="200" width="120" ></a>
 </br>
-<i>Theme color</i>
+<i>Theme colors</i>
 
 ## Compatibility :
 - Supported Android versions: 2.3 to 7.0, or up
