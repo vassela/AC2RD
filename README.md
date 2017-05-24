@@ -16,7 +16,7 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_records.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_replayer_lines.png" align="center" height="200" width="120" ></a>
 
-## Advanced features :
+## Advanced features :
 - Calls filtering on device contacts
 - Recording on device shake detection
 - Recording on internal / external memory
@@ -60,6 +60,6 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_red.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_red.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_red.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_red.png" align="center" height="200" width="120" ></a>
 
-Compatibility :
+## Compatibility :
 - Supported Android versions: 2.3 to 7.0, or up
 - Supported languages : English, and French
