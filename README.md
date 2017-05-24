@@ -62,6 +62,8 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_orange.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_orange.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_red.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_light_red.png" align="center" height="200" width="120" ></a>
 <a href="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_red.png"><img src="https://github.com/vassela/AC2RD/blob/master/screenshots/ac2rd_theme_red.png" align="center" height="200" width="120" ></a>
+</br>
+<i>Theme color</i>
 
 ## Compatibility :
 - Supported Android versions: 2.3 to 7.0, or up
