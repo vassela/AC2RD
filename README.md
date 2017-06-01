@@ -94,7 +94,7 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 - Supported languages : English, and French
 
 ## Additional information :
-- Current version: 0.1
+- Current version: 1.0
 - Self-signed certificate (non-market application)
 - Content rating: PEGI 3
 
