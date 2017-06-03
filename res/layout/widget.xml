@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file widget.xml
+ - @brief Layout
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:layout_marginTop="3dip"
+	tools:context=".WidgetProvider"
+	android:background="@drawable/widget"
+	>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		>
+		<TextView
+			android:text="@string/widget_app_acronym"
+			android:textStyle="bold"
+			android:textColor="#CCFFFFFF"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:gravity="center"
+			/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"
+		android:layout_marginTop="3dip"
+		android:layout_marginBottom="3dip"
+		android:background="#77FFFFFF"
+		android:orientation="horizontal"
+		/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		>
+		<TextView
+			android:id="@+id/widget_telephone_call_recorder_state_off"
+			android:text="@string/widget_telephone_call_recorder_state_off"
+			android:textStyle="bold"
+			android:textColor="#CCFFFFFF"
+			android:visibility="visible"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="start"
+			/>
+		<TextView
+			android:id="@+id/widget_telephone_call_recorder_state_on"
+			android:text="@string/widget_telephone_call_recorder_state_on"
+			android:textStyle="bold"
+			android:textColor="@color/lightred"
+			android:visibility="gone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="start"
+			/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		>
+		<TextView
+			android:id="@+id/widget_storage_state"
+			android:text="@string/widget_storage_state"
+			android:textStyle="bold"
+			android:textColor="#CCFFFFFF"
+			android:visibility="visible"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="start"
+			/>
+		<TextView
+			android:id="@+id/widget_storage_state_low"
+			android:text="@string/widget_storage_state"
+			android:textStyle="bold"
+			android:textColor="@color/lightorange"
+			android:visibility="gone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="start"
+			/>
+		<TextView
+			android:id="@+id/widget_storage_state_very_low"
+			android:text="@string/widget_storage_state"
+			android:textStyle="bold"
+			android:textColor="@color/lightred"
+			android:visibility="gone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="start"
+			/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		>
+		<TextView
+			android:id="@+id/widget_recorder_service_state_off"
+			android:text="@string/widget_recorder_service_state_off"
+			android:textStyle="bold"
+			android:textColor="#CCFFFFFF"
+			android:visibility="visible"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="start"
+			/>
+		<TextView
+			android:id="@+id/widget_recorder_service_state_on"
+			android:text="@string/widget_recorder_service_state_on"
+			android:textStyle="bold"
+			android:textColor="@color/lightgreen"
+			android:visibility="gone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="start"
+			/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"
+		android:layout_marginTop="3dip"
+		android:layout_marginBottom="3dip"
+		android:background="#77FFFFFF"
+		android:orientation="horizontal"
+		/>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="3dip"
+		android:gravity="center"
+		>
+		<Button
+		    android:id="@+id/widget_button_start_record"
+		    android:text="@string/widget_microphone_start"
+		    android:drawableLeft="@drawable/ic_record_white"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dip"
+		    android:visibility="visible"
+		    android:enabled="true"
+		    android:background="@drawable/button_selector_white"
+		    />
+		<Button
+		    android:id="@+id/widget_button_start_record_disabled"
+		    android:text="@string/widget_microphone_start"
+		    android:drawableLeft="@drawable/ic_record_white"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dip"
+		    android:clickable="false"
+		    android:visibility="gone"
+		    android:enabled="false"
+		    android:background="@drawable/button_selector_white"
+		    />
+		<Button
+		    android:id="@+id/widget_button_stop_record"
+		    android:text="@string/widget_microphone_stop"
+		    android:drawableLeft="@drawable/ic_stop_white"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dip"
+		    android:visibility="gone"
+		    android:enabled="true"
+		    android:background="@drawable/button_selector_white"
+		    />
+		<Button
+		    android:id="@+id/widget_button_stop_record_disabled"
+		    android:text="@string/widget_microphone_stop"
+		    android:drawableLeft="@drawable/ic_stop_white"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dip"
+		    android:clickable="false"
+		    android:enabled="false"
+		    android:visibility="visible"
+		    android:background="@drawable/button_selector_white"
+		    />
+		<Button
+		    android:id="@+id/widget_button_playlist"
+		    android:text="@string/widget_playlist"
+		    android:drawableLeft="@drawable/ic_playlist_white"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dip"
+		    android:visibility="visible"
+		    android:enabled="true"
+		    android:background="@drawable/button_selector_white"
+		    />
+		<Button
+		    android:id="@+id/widget_button_playlist_disabled"
+		    android:text="@string/widget_playlist"
+		    android:drawableLeft="@drawable/ic_playlist_white"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dip"
+		    android:clickable="false"
+		    android:visibility="gone"
+		    android:enabled="false"
+		    android:background="@drawable/button_selector_white"
+		    />
+	</LinearLayout>
+
+</LinearLayout>

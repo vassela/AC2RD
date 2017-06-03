@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--  
+ - @file record.xml
+ - @brief Layout
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	>
+	
+	<ImageView
+	    android:src="@drawable/ic_menu_play_clip"
+	    android:layout_width="40dip"
+		android:layout_height="40dip"
+		/>
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<TextView
+		    android:id="@+id/record_number"
+		    android:text=""
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:textSize="20sp"
+			/>
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			>
+			<ImageView
+			    android:id="@+id/record_direction"
+			    android:src="@drawable/sym_call_incoming"
+			    android:layout_width="20dip"
+				android:layout_height="20dip"
+				/>
+			<TextView
+			    android:id="@+id/record_contact"
+			    android:text=""
+			    android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:textColor="?attr/colorAccent"
+				/>
+		</LinearLayout>
+		
+		<TextView
+		    android:id="@+id/record_starting_date"
+		    android:text=""
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			/>
+	
+		<TextView
+		    android:id="@+id/record_duration"
+		    android:text=""
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			/>
+
+	</LinearLayout>
+	
+</LinearLayout>

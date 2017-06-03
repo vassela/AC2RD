@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file acquitment.xml
+ - @brief Layout
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	
+	<LinearLayout 
+		android:id="@+id/acquitment"
+		android:orientation="vertical"
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+		
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center_horizontal"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+			>
+			<TextView
+			    android:textColor="@color/red"
+				android:id="@+id/acquitment_warning"
+				android:text="@string/acquitment_warning"
+				android:textSize="42sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textStyle="bold"
+				android:padding="2dp"
+				android:shadowColor="@color/red"
+				android:shadowDx="0"
+				android:shadowDy="0"
+				android:shadowRadius="6"
+				/>
+			<TextView
+				android:id="@+id/acquitment_text"
+				android:text="@string/acquitment_text"
+				android:textSize="14sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textStyle="bold"
+				android:padding="2dp"
+				android:shadowDx="0"
+				android:shadowDy="0"
+				android:shadowRadius="2"
+				/>
+		</LinearLayout>
+		
+		<LinearLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center_horizontal"
+			android:layout_centerInParent="true"
+			>
+			<TextView
+				android:id="@+id/acquitment_checkbox_text"
+				android:text="@string/acquitment_checkbox_text"
+				android:textSize="14sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textStyle="bold"
+				android:padding="2dp"
+				android:shadowDx="0"
+				android:shadowDy="0"
+				android:shadowRadius="2"
+				/>
+			<android.support.v7.widget.AppCompatCheckBox android:id="@+id/acquitment_checkbox"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				/>
+		</LinearLayout>
+		
+		<View
+		    android:layout_width="fill_parent"
+			android:layout_height="20dp"
+		/>
+		
+		<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:layout_marginBottom="0dp"
+		    android:background="?attr/colorControlHighlight"
+		    />
+		
+		<LinearLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center_horizontal"
+			android:layout_centerInParent="true"
+			>
+			<Button
+				android:id="@+id/acquitment_cancel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="left|center_vertical"
+				android:paddingLeft="2dip"
+				android:drawablePadding="2dip"
+				style="@style/Widget.AppCompat.Button.Borderless"
+				android:background="?attr/selectableItemBackground"
+				android:drawableLeft="@drawable/ic_menu_revert"
+				android:text="@string/acquitment_cancel"
+				android:layout_weight="1"
+				/> 
+			<View
+			    android:layout_width="0.5dp"
+			    android:layout_height="fill_parent"
+			    android:layout_marginBottom="0dp"
+			    android:background="?attr/colorControlHighlight"
+			    />
+			<Button
+				android:id="@+id/acquitment_accept"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="left|center_vertical"
+				android:paddingLeft="2dip"
+				android:drawablePadding="2dip"
+				style="@style/Widget.AppCompat.Button.Borderless"
+				android:background="?attr/selectableItemBackground"
+				android:drawableLeft="@drawable/btn_check_buttonless_off"
+				android:text="@string/acquitment_accept"
+				android:layout_weight="1"
+				/>
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+</ScrollView>

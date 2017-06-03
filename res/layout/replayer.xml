@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file replayer.xml
+ - @brief Layout
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	
+	<android.support.v7.widget.Toolbar
+			android:id="@+id/replayer_toolbar"
+			android:minHeight="?attr/actionBarSize"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="?attr/colorPrimary"
+			android:theme="?attr/actionBarStyle"
+			>
+	</android.support.v7.widget.Toolbar>
+	
+	<View
+	    android:layout_width="fill_parent"
+		android:layout_height="20dp"
+		/>
+	 
+	<TextView
+	    android:id="@+id/replayer_direction"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+	
+	<TextView
+	    android:id="@+id/replayer_number"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+	
+	<TextView
+	    android:id="@+id/replayer_double_call"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+	
+	<TextView
+	    android:id="@+id/replayer_double_call_number"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+	
+	<TextView
+	    android:id="@+id/replayer_starting_date"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+	
+	<TextView
+	    android:id="@+id/replayer_ending_date"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+	
+<!--  
+	<TextView
+	    android:id="@+id/replayer_duration"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+-->
+
+<!--  
+	<TextView
+	    android:id="@+id/replayer_record_path"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+-->
+
+	<TextView
+	    android:id="@+id/replayer_record_filename"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+	
+	<TextView
+	    android:id="@+id/replayer_record_format"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+	
+<!--  	
+	<TextView
+	    android:id="@+id/replayer_locked"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+-->
+	
+	<TextView
+	    android:id="@+id/replayer_description"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		/>
+
+	<FrameLayout
+	    android:id="@+id/replayer_frame_layout"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+		<fr.vassela.acrrd.replayer.ReplayFileVisualizer
+			android:id="@+id/replayer_visualizer"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+		</fr.vassela.acrrd.replayer.ReplayFileVisualizer>
+	</FrameLayout>
+	
+	<MediaController
+	    android:id="@+id/replayer_media_controller"
+		android:layout_width="fill_parent"
+		android:layout_height="200px"
+		android:background="?attr/colorPrimary"
+		android:theme="?attr/seekBarStyle"
+		android:visibility="visible"
+		/>
+	
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file preferences_purge_retention.xml
+ - @brief Values
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<resources>
+    
+	<string-array name="preferences_purge_retention_list_entries">
+	    <item>@string/preferences_purge_retention_list_entries_30</item>
+	    <item>@string/preferences_purge_retention_list_entries_29</item>
+	    <item>@string/preferences_purge_retention_list_entries_28</item>
+	    <item>@string/preferences_purge_retention_list_entries_27</item>
+	    <item>@string/preferences_purge_retention_list_entries_26</item>
+	    <item>@string/preferences_purge_retention_list_entries_25</item>
+	    <item>@string/preferences_purge_retention_list_entries_24</item>
+	    <item>@string/preferences_purge_retention_list_entries_23</item>
+	    <item>@string/preferences_purge_retention_list_entries_22</item>
+	    <item>@string/preferences_purge_retention_list_entries_21</item>
+	    <item>@string/preferences_purge_retention_list_entries_20</item>
+	    <item>@string/preferences_purge_retention_list_entries_19</item>
+	    <item>@string/preferences_purge_retention_list_entries_18</item>
+	    <item>@string/preferences_purge_retention_list_entries_17</item>
+	    <item>@string/preferences_purge_retention_list_entries_16</item>
+	    <item>@string/preferences_purge_retention_list_entries_15</item>
+	    <item>@string/preferences_purge_retention_list_entries_14</item>
+	    <item>@string/preferences_purge_retention_list_entries_13</item>
+	    <item>@string/preferences_purge_retention_list_entries_12</item>
+	    <item>@string/preferences_purge_retention_list_entries_11</item>
+	    <item>@string/preferences_purge_retention_list_entries_10</item>
+	    <item>@string/preferences_purge_retention_list_entries_9</item>
+	    <item>@string/preferences_purge_retention_list_entries_8</item>
+	    <item>@string/preferences_purge_retention_list_entries_7</item>
+	    <item>@string/preferences_purge_retention_list_entries_6</item>
+	    <item>@string/preferences_purge_retention_list_entries_5</item>
+	    <item>@string/preferences_purge_retention_list_entries_4</item>
+		<item>@string/preferences_purge_retention_list_entries_3</item>
+		<item>@string/preferences_purge_retention_list_entries_2</item>
+		<item>@string/preferences_purge_retention_list_entries_1</item>
+	</string-array>
+	
+	<string-array name="preferences_purge_retention_list_values">
+	    <item>30</item>
+	    <item>29</item>
+	    <item>28</item>
+	    <item>27</item>
+	    <item>26</item>
+	    <item>25</item>
+	    <item>24</item>
+	    <item>23</item>
+	    <item>22</item>
+	    <item>21</item>
+	    <item>20</item>
+	    <item>19</item>
+	    <item>18</item>
+	    <item>17</item>
+	    <item>16</item>
+	    <item>15</item>
+	    <item>14</item>
+	    <item>13</item>
+	    <item>12</item>
+	    <item>11</item>
+	    <item>10</item>
+	    <item>9</item>
+	    <item>8</item>
+	    <item>7</item>
+	    <item>6</item>
+	    <item>5</item>
+	    <item>4</item>
+	    <item>3</item>
+	    <item>2</item>
+	    <item>1</item>
+	</string-array>
+	
+</resources>

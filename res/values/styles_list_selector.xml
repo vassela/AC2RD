@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file styles_list_selector.xml
+ - @brief Values
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="ListViewLightBlue" parent="android:Widget.ListView">
+		<item name="android:listSelector">@drawable/listview_selector_lightblue</item>
+	</style>
+
+	<style name="ListViewLightBlue.White" parent="android:Widget.ListView.White">
+		<item name="android:listSelector">@drawable/listview_selector_lightblue</item>
+	</style>
+
+	<style name="ListViewBlue" parent="android:Widget.ListView">
+		<item name="android:listSelector">@drawable/listview_selector_blue</item>
+	</style>
+
+	<style name="ListViewBlue.White" parent="android:Widget.ListView.White">
+		<item name="android:listSelector">@drawable/listview_selector_blue</item>
+	</style>
+
+	<style name="ListViewLightPurple" parent="android:Widget.ListView">
+		<item name="android:listSelector">@drawable/listview_selector_lightpurple</item>
+	</style>
+
+	<style name="ListViewLightPurple.White" parent="android:Widget.ListView.White">
+		<item name="android:listSelector">@drawable/listview_selector_lightpurple</item>
+	</style>
+
+	<style name="ListViewPurple" parent="android:Widget.ListView">
+		<item name="android:listSelector">@drawable/listview_selector_purple</item>
+	</style>
+
+	<style name="ListViewPurple.White" parent="android:Widget.ListView.White">
+		<item name="android:listSelector">@drawable/listview_selector_purple</item>
+	</style>
+
+	<style name="ListViewLightGreen" parent="android:Widget.ListView">
+		<item name="android:listSelector">@drawable/listview_selector_lightgreen</item>
+	</style>
+
+	<style name="ListViewLightGreen.White" parent="android:Widget.ListView.White">
+		<item name="android:listSelector">@drawable/listview_selector_lightgreen</item>
+	</style>
+
+	<style name="ListViewGreen" parent="android:Widget.ListView">
+		<item name="android:listSelector">@drawable/listview_selector_green</item>
+	</style>
+
+	<style name="ListViewGreen.White" parent="android:Widget.ListView.White">
+		<item name="android:listSelector">@drawable/listview_selector_green</item>
+	</style>
+
+	<style name="ListViewLightOrange" parent="android:Widget.ListView">
+		<item name="android:listSelector">@drawable/listview_selector_lightorange</item>
+	</style>
+
+	<style name="ListViewLightOrange.White" parent="android:Widget.ListView.White">
+		<item name="android:listSelector">@drawable/listview_selector_lightorange</item>
+	</style>
+
+	<style name="ListViewOrange" parent="android:Widget.ListView">
+		<item name="android:listSelector">@drawable/listview_selector_orange</item>
+	</style>
+
+	<style name="ListViewOrange.White" parent="android:Widget.ListView.White">
+		<item name="android:listSelector">@drawable/listview_selector_orange</item>
+	</style>
+
+	<style name="ListViewLightRed" parent="android:Widget.ListView">
+		<item name="android:listSelector">@drawable/listview_selector_lightred</item>
+	</style>
+
+	<style name="ListViewLightRed.White" parent="android:Widget.ListView.White">
+		<item name="android:listSelector">@drawable/listview_selector_lightred</item>
+	</style>
+
+	<style name="ListViewRed" parent="android:Widget.ListView">
+		<item name="android:listSelector">@drawable/listview_selector_red</item>
+	</style>
+
+	<style name="ListViewRed.White" parent="android:Widget.ListView.White">
+		<item name="android:listSelector">@drawable/listview_selector_red</item>
+	</style>
+
+</resources>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file preferences_preferences.xml
+ - @brief Layout
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<PreferenceCategory android:title="@string/preferences_record">
+		<CheckBoxPreference
+			android:title="@string/preferences_record_activate"
+			android:defaultValue="true"
+			android:summary="@string/preferences_record_activate_summary"
+			android:key="preferences_record_activate"
+			/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/preferences_filters">
+		<CheckBoxPreference
+		    android:title="@string/preferences_filters_activate"
+			android:defaultValue="false"
+			android:summary="@string/preferences_filters_activate_summary"
+			android:key="preferences_filters_activate"
+			/>
+		<CheckBoxPreference
+		    android:title="@string/preferences_shake_detector_activate"
+			android:defaultValue="true"
+			android:enabled="false"
+			android:summary="@string/preferences_shake_detector_activate_summary"
+			android:key="preferences_shake_detector_activate"
+			/>
+		<PreferenceScreen
+		    android:key="preferences_filters_define"
+		    android:enabled="false"
+			android:title="@string/preferences_filters_define"
+			android:summary="@string/preferences_filters_define_summary"
+			/>
+	</PreferenceCategory>
+    
+	<PreferenceCategory android:title="@string/preferences_audio">
+		<fr.vassela.acrrd.theme.ListPreferenceThemeManager
+		    android:title="@string/preferences_audio_source"
+			android:summary="@string/preferences_audio_source_summary"
+			android:key="preferences_audio_source"
+			android:defaultValue="4"
+			android:entries="@array/preferences_audio_source_list_entries"
+			android:entryValues="@array/preferences_audio_source_list_values"
+			/>
+		<CheckBoxPreference
+		    android:title="@string/preferences_audio_max_volume_activate"
+			android:defaultValue="true"
+			android:summary="@string/preferences_audio_max_volume_activate_summary"
+			android:key="preferences_audio_max_volume_activate"
+			/>
+		<fr.vassela.acrrd.theme.ListPreferenceThemeManager
+		    android:title="@string/preferences_audio_format"
+			android:summary="@string/preferences_audio_format_summary"
+			android:key="preferences_audio_format"
+			android:defaultValue="1"
+			android:entries="@array/preferences_audio_format_list_entries"
+			android:entryValues="@array/preferences_audio_format_list_values"
+			/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/preferences_replayer">
+        <fr.vassela.acrrd.theme.ListPreferenceThemeManager
+            android:title="@string/preferences_replayer_visualizer"
+			android:summary="@string/preferences_replayer_visualizer_summary"
+			android:key="preferences_replayer_visualizer"
+			android:defaultValue="1"
+			android:entries="@array/preferences_replayer_visualizer_list_entries"
+			android:entryValues="@array/preferences_replayer_visualizer_list_values"
+			/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/preferences_storage">
+		<fr.vassela.acrrd.theme.ListPreferenceThemeManager
+		    android:title="@string/preferences_storage_path"
+			android:summary="@string/preferences_storage_path_summary"
+			android:key="preferences_storage_path"
+			/>
+	</PreferenceCategory>
+    
+	<PreferenceCategory android:title="@string/preferences_purge">
+		<CheckBoxPreference
+		    android:title="@string/preferences_purge_activate"
+			android:defaultValue="true"
+			android:summary="@string/preferences_purge_activate_summary"
+			android:key="preferences_purge_activate"
+			/>
+		<fr.vassela.acrrd.theme.ListPreferenceThemeManager
+		    android:title="@string/preferences_purge_frequency"
+			android:summary="@string/preferences_purge_frequency_summary"
+			android:key="preferences_purge_frequency"
+			android:defaultValue="1"
+			android:enabled="false"
+			android:entries="@array/preferences_purge_frequency_list_entries"
+			android:entryValues="@array/preferences_purge_frequency_list_values"
+			/>
+		<fr.vassela.acrrd.theme.ListPreferenceThemeManager
+		    android:title="@string/preferences_purge_retention"
+			android:summary="@string/preferences_purge_retention_summary"
+			android:key="preferences_purge_retention"
+			android:defaultValue="1"
+			android:enabled="false"
+			android:entries="@array/preferences_purge_retention_list_entries"
+			android:entryValues="@array/preferences_purge_retention_list_values"
+			/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/preferences_logs">
+		<CheckBoxPreference
+		    android:title="@string/preferences_logs_activate"
+			android:defaultValue="true"
+			android:summary="@string/preferences_logs_activate_summary"
+			android:key="preferences_logs_activate"
+			/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/preferences_notifications">
+		<CheckBoxPreference
+		    android:title="@string/preferences_notifications_activate"
+			android:defaultValue="true"
+			android:summary="@string/preferences_notifications_activate_summary"
+			android:key="preferences_notifications_activate"
+			/>
+		<CheckBoxPreference
+		    android:title="@string/preferences_notifications_sound_activate"
+			android:defaultValue="true"
+			android:summary="@string/preferences_notifications_sound_activate_summary"
+			android:key="preferences_notifications_sound_activate"
+			/>
+		<CheckBoxPreference
+		    android:title="@string/preferences_notifications_vibrate_activate"
+			android:defaultValue="true"
+			android:summary="@string/preferences_notifications_vibrate_activate_summary"
+			android:key="preferences_notifications_vibrate_activate" />
+		<CheckBoxPreference
+		    android:title="@string/preferences_notifications_led_activate"
+			android:defaultValue="true"
+			android:summary="@string/preferences_notifications_led_activate_summary"
+			android:key="preferences_notifications_led_activate"
+			/>
+		<CheckBoxPreference
+		    android:title="@string/preferences_toast_messages_activate"
+			android:defaultValue="true"
+			android:summary="@string/preferences_toast_messages_activate_summary"
+			android:key="preferences_toast_messages_activate"
+			/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/preferences_splashscreen">
+		<CheckBoxPreference
+		    android:title="@string/preferences_splashscreen_activate"
+			android:defaultValue="true"
+			android:summary="@string/preferences_splashscreen_activate_summary"
+			android:key="preferences_splashscreen_activate"
+			/>
+	</PreferenceCategory>
+   
+	<PreferenceCategory android:title="@string/preferences_theme">
+		<fr.vassela.acrrd.theme.ListPreferenceThemeManager
+		    android:title="@string/preferences_theme_set"
+			android:summary="@string/preferences_theme_set_summary"
+			android:key="preferences_theme_set"
+			android:defaultValue="0"
+			android:entries="@array/preferences_theme_set_list_entries"
+			android:entryValues="@array/preferences_theme_set_list_values"
+			/>
+		<fr.vassela.acrrd.theme.ListPreferenceThemeManager
+		    android:title="@string/preferences_color_theme_set"
+			android:summary="@string/preferences_color_theme_set_summary"
+			android:key="preferences_color_theme_set"
+			android:defaultValue="7"
+			android:entries="@array/preferences_color_theme_set_list_entries"
+			android:entryValues="@array/preferences_color_theme_set_list_values"
+			/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/preferences_locale">
+		<fr.vassela.acrrd.theme.ListPreferenceThemeManager
+		    android:title="@string/preferences_locale_set"
+			android:summary="@string/preferences_locale_set_summary"
+			android:id="@+id/preferences_locale_set"
+			android:key="preferences_locale_set"
+			android:defaultValue="0"
+			android:entries="@array/preferences_locale_set_list_entries"
+			android:entryValues="@array/preferences_locale_set_list_values"
+			/>
+	</PreferenceCategory>
+
+</PreferenceScreen>

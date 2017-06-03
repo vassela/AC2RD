@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file terms.xml
+ - @brief Layout
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/about"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/license_toolbar"
+		android:minHeight="?attr/actionBarSize"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="?attr/colorPrimary"
+		android:theme="?attr/actionBarStyle"
+		>
+	</android.support.v7.widget.Toolbar>
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center_horizontal"
+			android:layout_centerInParent="true"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+			>
+			
+			<TextView
+			    android:id="@+id/license_gnu_gpl"
+			    android:text="@string/license_gnu_gpl"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1" android:textSize="42sp"
+				android:textColor="?attr/colorAccent"
+				android:shadowColor="?attr/colorAccent"
+				/>
+		
+			<TextView
+			    android:id="@+id/license_text"
+			    android:text="@string/license_text"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				/>
+			
+		</LinearLayout>
+		
+	</ScrollView>
+
+</LinearLayout>

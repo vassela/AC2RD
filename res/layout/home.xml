@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file home.xml
+ - @brief Layout
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	
+	<LinearLayout
+		android:id="@+id/home"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="?attr/android:windowBackground"
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		>
+
+		<View
+		    android:layout_width="fill_parent"
+			android:layout_height="20dp"
+			/>
+
+		<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1,2"
+			>
+			<TableRow
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:id="@+id/table_home_general_state"
+				android:background="@drawable/tablerow_orange"
+				>
+				<TextView
+					android:id="@+id/home_general_state"
+					android:text="@string/home_general_state"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_column="1"
+					android:gravity="start"
+					/>
+			</TableRow>
+
+			<View
+			    android:layout_width="fill_parent"
+				android:layout_height="20dp"
+				/>
+	    
+			<TableRow
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				>
+				<TextView
+					android:id="@+id/home_telephone_call_recorder_state"
+					android:text="@string/home_telephone_call_recorder_state"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_column="1"
+					android:gravity="start"
+					/>
+
+				<android.support.v7.widget.AppCompatRadioButton
+					android:id="@+id/home_telephone_call_recorder_state_value"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/home_telephone_call_recorder_state_off"
+					android:enabled="true"
+					android:clickable="false"
+					android:checked="false"
+					android:layout_column="2"
+					android:gravity="center"
+					android:layout_gravity="center"
+					/>
+			</TableRow>
+			
+			<TableRow
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				>
+				<TextView
+					android:id="@+id/home_telephone_call_recorder_action"
+					android:text="@string/home_telephone_call_recorder_action"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_column="1"
+					android:gravity="start"
+					/>
+				<TextView
+					android:id="@+id/home_telephone_call_recorder_action_value"
+					android:textColor="?attr/colorAccent"
+					android:text="@string/home_telephone_call_recorder_action_unknown"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_column="2"
+					android:gravity="center"
+					android:layout_gravity="center"
+					/>
+			</TableRow>
+
+			<TableRow
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				>
+				<TextView
+					android:id="@+id/home_storage_path"
+					android:text="@string/home_storage_path"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_column="1"
+					android:gravity="start"
+					/>
+				<TextView
+					android:id="@+id/home_storage_path_value"
+					android:textColor="?attr/colorAccent"
+					android:text=""
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_column="2"
+					android:gravity="center"
+					android:layout_gravity="center"
+					/>
+			</TableRow>
+
+			<TableRow
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				>
+				<TextView
+					android:id="@+id/home_storage_available_space"
+					android:text="@string/home_storage_available_space"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_column="1"
+					android:gravity="start"
+					/>
+				<SeekBar
+					android:id="@+id/home_storage_available_space_seekbar"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:thumb="@null"
+					android:theme="?attr/seekBarStyle"
+					android:clickable="false"
+					android:gravity="center"
+					android:layout_gravity="bottom"
+					/>
+			</TableRow>
+			
+			<TableRow
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				>
+				<TextView
+					android:id="@+id/home_storage_available_space_value"
+					android:textColor="?attr/colorAccent"
+					android:text=""
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_column="2"
+					android:gravity="center"
+					android:layout_gravity="center"
+					/>
+			</TableRow>
+	    
+			<View
+			    android:layout_width="fill_parent"
+				android:layout_height="20dp"
+				/>
+
+			<TableRow
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:id="@+id/table_home_telephone_call_recorder"
+				android:background="@drawable/tablerow_orange"
+				>
+				<TextView
+					android:id="@+id/home_telephone_call_recorder"
+					android:text="@string/home_telephone_call_recorder"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_column="1"
+					android:gravity="start"
+					/>
+			</TableRow>
+
+			<View
+			    android:layout_width="fill_parent"
+				android:layout_height="20dp"
+				/>
+
+			<TableRow
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				>
+				<TextView
+					android:id="@+id/home_telephone_call_recorder_activate"
+					android:text="@string/home_telephone_call_recorder_activate"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_column="1"
+					android:gravity="start"
+					/>
+				<android.support.v7.widget.SwitchCompat
+					android:id="@+id/home_switch_record_activate"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_column="2"
+					android:gravity="center"
+					android:layout_gravity="center"
+					/>
+			</TableRow>
+
+			<TableRow
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				>
+				<TextView
+					android:id="@+id/home_telephone_call_state"
+					android:text="@string/home_telephone_call_state"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_column="1"
+					android:gravity="start"
+					/>
+				<TextView
+					android:id="@+id/home_telephone_call_state_value"
+					android:textColor="?attr/colorAccent"
+					android:text=""
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_column="2"
+					android:gravity="center"
+					android:layout_gravity="center"
+					/>
+			</TableRow>
+
+			<View
+			    android:layout_width="fill_parent"
+				android:layout_height="20dp"
+				/>
+
+			<TableRow
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:id="@+id/table_home_dictaphone"
+				android:background="@drawable/tablerow_orange"
+				>
+				<TextView
+					android:id="@+id/home_dictaphone"
+					android:text="@string/home_dictaphone"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_column="1"
+					android:gravity="start"
+					/>
+			</TableRow>
+		
+			<View
+			    android:layout_width="fill_parent"
+				android:layout_height="20dp"
+				/>
+
+			<TableRow
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				>
+				<Button
+					android:id="@+id/home_microphone_start"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="left|center_vertical"
+					android:paddingLeft="2dip"
+					android:drawablePadding="2dip"
+					style="@style/Widget.AppCompat.Button.Borderless"
+					android:background="?attr/selectableItemBackground"
+					android:text="@string/home_microphone_start"
+					android:layout_column="1"
+					android:layout_gravity="center"
+					/>
+				<Button
+					android:id="@+id/home_microphone_stop"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="left|center_vertical"
+					android:paddingLeft="2dip"
+					android:drawablePadding="2dip"
+					style="@style/Widget.AppCompat.Button.Borderless"
+					android:background="?attr/selectableItemBackground"
+					android:text="@string/home_microphone_stop"
+					android:layout_column="2"
+					android:layout_gravity="center"
+					/>
+			</TableRow>
+
+		</TableLayout>
+
+	</LinearLayout>
+	
+</ScrollView>

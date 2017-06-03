@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file preferences_color_theme_set.xml
+ - @brief Values
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<resources>
+    
+	<string-array name="preferences_color_theme_set_list_entries">
+	    <item>@string/preferences_color_theme_set_list_entries_0</item>
+		<item>@string/preferences_color_theme_set_list_entries_1</item>
+		<item>@string/preferences_color_theme_set_list_entries_2</item>
+		<item>@string/preferences_color_theme_set_list_entries_3</item>
+		<item>@string/preferences_color_theme_set_list_entries_4</item>
+		<item>@string/preferences_color_theme_set_list_entries_5</item>
+		<item>@string/preferences_color_theme_set_list_entries_6</item>
+		<item>@string/preferences_color_theme_set_list_entries_7</item>
+		<item>@string/preferences_color_theme_set_list_entries_8</item>
+		<item>@string/preferences_color_theme_set_list_entries_9</item>
+	</string-array>
+	
+	<string-array name="preferences_color_theme_set_list_values">
+	    <item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array>
+	
+</resources>

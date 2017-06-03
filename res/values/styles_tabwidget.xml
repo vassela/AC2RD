@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file styles_tabwidget.xml
+ - @brief Values
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<dimen name="tab_host_default_height">48dp</dimen>
+
+	<style name="TabLightBlue">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+		<item name="android:background">@drawable/tabwidget_lightblue</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:minWidth">80dip</item>
+	</style>
+
+	<style name="TabTextLightBlue">
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:maxLines">2</item>
+		<item name="android:maxWidth">180dip</item>
+	</style>
+	
+		<style name="TabBlue">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+		<item name="android:background">@drawable/tabwidget_blue</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:minWidth">80dip</item>
+	</style>
+
+	<style name="TabTextBlue">
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:maxLines">2</item>
+		<item name="android:maxWidth">180dip</item>
+	</style>
+
+	<style name="TabLightPurple">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+		<item name="android:background">@drawable/tabwidget_lightpurple</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:minWidth">80dip</item>
+	</style>
+
+	<style name="TabTextLightPurple">
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:maxLines">2</item>
+		<item name="android:maxWidth">180dip</item>
+	</style>
+	
+	<style name="TabPurple">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+		<item name="android:background">@drawable/tabwidget_purple</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:minWidth">80dip</item>
+	</style>
+
+	<style name="TabTextPurple">
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:maxLines">2</item>
+		<item name="android:maxWidth">180dip</item>
+	</style>
+
+	<style name="TabLightGreen">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+		<item name="android:background">@drawable/tabwidget_lightgreen</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:minWidth">80dip</item>
+	</style>
+
+	<style name="TabTextLightGreen">
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:maxLines">2</item>
+		<item name="android:maxWidth">180dip</item>
+	</style>
+
+	<style name="TabGreen">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+		<item name="android:background">@drawable/tabwidget_green</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:minWidth">80dip</item>
+	</style>
+
+	<style name="TabTextGreen">
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:maxLines">2</item>
+		<item name="android:maxWidth">180dip</item>
+	</style>
+
+	<style name="TabLightOrange">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+		<item name="android:background">@drawable/tabwidget_lightorange</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:minWidth">80dip</item>
+	</style>
+
+	<style name="TabTextLightOrange">
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:maxLines">2</item>
+		<item name="android:maxWidth">180dip</item>
+	</style>
+
+	<style name="TabOrange">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+		<item name="android:background">@drawable/tabwidget_orange</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:minWidth">80dip</item>
+	</style>
+
+	<style name="TabTextOrange">
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:maxLines">2</item>
+		<item name="android:maxWidth">180dip</item>
+	</style>
+
+	<style name="TabLightRed">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+		<item name="android:background">@drawable/tabwidget_lightred</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:minWidth">80dip</item>
+	</style>
+
+	<style name="TabTextLightRed">
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:maxLines">2</item>
+		<item name="android:maxWidth">180dip</item>
+	</style>
+
+	<style name="TabRed">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+		<item name="android:background">@drawable/tabwidget_red</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:minWidth">80dip</item>
+	</style>
+
+	<style name="TabTextRed">
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:maxLines">2</item>
+		<item name="android:maxWidth">180dip</item>
+	</style>
+
+</resources>

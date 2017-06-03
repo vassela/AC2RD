@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file styles.xml
+ - @brief Values
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<resources>
+    
+	<!-- Thème Default -->
+    
+	<style name="Default" parent="@style/Theme.AppCompat.Light.NoActionBar"> 
+		<item name="colorAccent">@color/orange</item>
+		<item name="colorControlActivated">@color/orange</item>
+		<item name="actionBarStyle">@style/Theme.AppCompat.NoActionBar</item>
+		<item name="seekBarStyle">@style/SeekBarOrange</item>
+		<item name="android:listViewStyle">@style/ListViewOrange</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewOrange.White</item>
+	</style>
+
+	<!-- Thème LightDarkActionBar -->
+	
+	<style name="LightDarkActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">   
+		<item name="actionBarStyle">@style/Theme.AppCompat.NoActionBar</item>
+	</style>
+	
+	<style name="LightDarkActionBar_LightBlue" parent="@style/LightDarkActionBar">   
+		<item name="colorAccent">@color/lightblue</item>
+		<item name="seekBarStyle">@style/SeekBarLightBlue</item>
+		<item name="android:listViewStyle">@style/ListViewLightBlue</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightBlue.White</item>
+	</style>
+  
+	<style name="LightDarkActionBar_Blue" parent="@style/LightDarkActionBar">   
+		<item name="colorAccent">@color/blue</item>
+		<item name="seekBarStyle">@style/SeekBarBlue</item>
+		<item name="android:listViewStyle">@style/ListViewBlue</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewBlue.White</item>
+	</style>
+  
+	<style name="LightDarkActionBar_LightPurple" parent="@style/LightDarkActionBar">   
+		<item name="colorAccent">@color/lightpurple</item>
+		<item name="seekBarStyle">@style/SeekBarLightPurple</item>
+		<item name="android:listViewStyle">@style/ListViewLightPurple</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightPurple.White</item>
+	</style>
+  
+	<style name="LightDarkActionBar_Purple" parent="@style/LightDarkActionBar">   
+		<item name="colorAccent">@color/purple</item>
+		<item name="seekBarStyle">@style/SeekBarPurple</item>
+		<item name="android:listViewStyle">@style/ListViewPurple</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewPurple.White</item>
+	</style>
+  
+	<style name="LightDarkActionBar_LightGreen" parent="@style/LightDarkActionBar">   
+		<item name="colorAccent">@color/lightgreen</item>
+		<item name="seekBarStyle">@style/SeekBarLightGreen</item>
+		<item name="android:listViewStyle">@style/ListViewLightGreen</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightGreen.White</item>
+	</style>
+  
+	<style name="LightDarkActionBar_Green" parent="@style/LightDarkActionBar">   
+		<item name="colorAccent">@color/green</item>
+		<item name="seekBarStyle">@style/SeekBarGreen</item>
+		<item name="android:listViewStyle">@style/ListViewGreen</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewGreen.White</item>
+	</style>
+  
+	<style name="LightDarkActionBar_LightOrange" parent="@style/LightDarkActionBar">   
+		<item name="colorAccent">@color/lightorange</item>
+		<item name="seekBarStyle">@style/SeekBarLightOrange</item>
+		<item name="android:listViewStyle">@style/ListViewLightOrange</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightOrange.White</item>
+	</style>
+  
+	<style name="LightDarkActionBar_Orange" parent="@style/LightDarkActionBar">   
+		<item name="colorAccent">@color/orange</item>
+		<item name="seekBarStyle">@style/SeekBarOrange</item>
+		<item name="android:listViewStyle">@style/ListViewOrange</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewOrange.White</item>
+	</style>
+    
+	<style name="LightDarkActionBar_LightRed" parent="@style/LightDarkActionBar">   
+		<item name="colorAccent">@color/lightred</item>
+		<item name="seekBarStyle">@style/SeekBarLightRed</item>
+		<item name="android:listViewStyle">@style/ListViewLightRed</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightRed.White</item>
+	</style>
+  
+	<style name="LightDarkActionBar_Red" parent="@style/LightDarkActionBar">   
+		<item name="colorAccent">@color/red</item>
+		<item name="seekBarStyle">@style/SeekBarRed</item>
+		<item name="android:listViewStyle">@style/ListViewRed</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewRed.White</item>
+	</style>
+	
+	
+	
+	<!-- Thème Dark -->
+	
+	<style name="Dark" parent="@style/Theme.AppCompat.NoActionBar">
+	</style>
+	
+	<style name="Dark_LightBlue" parent="@style/Dark">   
+		<item name="colorAccent">@color/lightblue</item>
+		<item name="seekBarStyle">@style/SeekBarLightBlue</item>
+		<item name="android:listViewStyle">@style/ListViewLightBlue</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightBlue.White</item>
+	</style>
+  
+	<style name="Dark_Blue" parent="@style/Dark">   
+		<item name="colorAccent">@color/blue</item>
+		<item name="seekBarStyle">@style/SeekBarBlue</item>
+		<item name="android:listViewStyle">@style/ListViewBlue</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewBlue.White</item>
+	</style>
+  
+	<style name="Dark_LightPurple" parent="@style/Dark">   
+		<item name="colorAccent">@color/lightpurple</item>
+		<item name="seekBarStyle">@style/SeekBarLightPurple</item>
+		<item name="android:listViewStyle">@style/ListViewLightPurple</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightPurple.White</item>
+	</style>
+  
+	<style name="Dark_Purple" parent="@style/Dark">   
+		<item name="colorAccent">@color/purple</item>
+		<item name="seekBarStyle">@style/SeekBarPurple</item>
+		<item name="android:listViewStyle">@style/ListViewPurple</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewPurple.White</item>
+	</style>
+  
+	<style name="Dark_LightGreen" parent="@style/Dark">   
+		<item name="colorAccent">@color/lightgreen</item>
+		<item name="seekBarStyle">@style/SeekBarLightGreen</item>
+		<item name="android:listViewStyle">@style/ListViewLightGreen</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightGreen.White</item>
+	</style>
+  
+	<style name="Dark_Green" parent="@style/Dark">   
+		<item name="colorAccent">@color/green</item>
+		<item name="seekBarStyle">@style/SeekBarGreen</item>
+		<item name="android:listViewStyle">@style/ListViewGreen</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewGreen.White</item>
+	</style>
+  
+	<style name="Dark_LightOrange" parent="@style/Dark">   
+		<item name="colorAccent">@color/lightorange</item>
+		<item name="seekBarStyle">@style/SeekBarLightOrange</item>
+		<item name="android:listViewStyle">@style/ListViewLightOrange</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightOrange.White</item>
+	</style>
+  
+	<style name="Dark_Orange" parent="@style/Dark">   
+		<item name="colorAccent">@color/orange</item>
+		<item name="seekBarStyle">@style/SeekBarOrange</item>
+		<item name="android:listViewStyle">@style/ListViewOrange</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewOrange.White</item>
+	</style>
+    
+	<style name="Dark_LightRed" parent="@style/Dark">   
+		<item name="colorAccent">@color/lightred</item>
+		<item name="seekBarStyle">@style/SeekBarLightRed</item>
+		<item name="android:listViewStyle">@style/ListViewLightRed</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightRed.White</item>
+	</style>
+  
+	<style name="Dark_Red" parent="@style/Dark">   
+		<item name="colorAccent">@color/red</item>
+		<item name="seekBarStyle">@style/SeekBarRed</item>
+		<item name="android:listViewStyle">@style/ListViewRed</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewRed.White</item>
+	</style>
+	
+	
+	
+	<!-- Thème Light -->
+	
+	<style name="Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
+	</style>
+	
+	<style name="Light_LightBlue" parent="@style/Light">   
+		<item name="colorAccent">@color/lightblue</item>
+		<item name="seekBarStyle">@style/SeekBarLightBlue</item>
+		<item name="android:listViewStyle">@style/ListViewLightBlue</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightBlue.White</item>
+	</style>
+  
+	<style name="Light_Blue" parent="@style/Light">   
+		<item name="colorAccent">@color/blue</item>
+		<item name="seekBarStyle">@style/SeekBarBlue</item>
+		<item name="android:listViewStyle">@style/ListViewBlue</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewBlue.White</item>
+	</style>
+  
+	<style name="Light_LightPurple" parent="@style/Light">   
+		<item name="colorAccent">@color/lightpurple</item>
+		<item name="seekBarStyle">@style/SeekBarLightPurple</item>
+		<item name="android:listViewStyle">@style/ListViewLightPurple</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightPurple.White</item>
+	</style>
+  
+	<style name="Light_Purple" parent="@style/Light">   
+		<item name="colorAccent">@color/purple</item>
+		<item name="seekBarStyle">@style/SeekBarPurple</item>
+		<item name="android:listViewStyle">@style/ListViewPurple</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewPurple.White</item>
+	</style>
+  
+	<style name="Light_LightGreen" parent="@style/Light">   
+		<item name="colorAccent">@color/lightgreen</item>
+		<item name="seekBarStyle">@style/SeekBarLightGreen</item>
+		<item name="android:listViewStyle">@style/ListViewLightGreen</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightGreen.White</item>
+	</style>
+  
+	<style name="Light_Green" parent="@style/Light">   
+		<item name="colorAccent">@color/green</item>
+		<item name="seekBarStyle">@style/SeekBarGreen</item>
+		<item name="android:listViewStyle">@style/ListViewGreen</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewGreen.White</item>
+	</style>
+  
+	<style name="Light_LightOrange" parent="@style/Light">   
+		<item name="colorAccent">@color/lightorange</item>
+		<item name="seekBarStyle">@style/SeekBarLightOrange</item>
+		<item name="android:listViewStyle">@style/ListViewLightOrange</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightOrange.White</item>
+	</style>
+  
+	<style name="Light_Orange" parent="@style/Light">   
+		<item name="colorAccent">@color/orange</item>
+		<item name="seekBarStyle">@style/SeekBarOrange</item>
+		<item name="android:listViewStyle">@style/ListViewOrange</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewOrange.White</item>
+	</style>
+    
+	<style name="Light_LightRed" parent="@style/Light">   
+		<item name="colorAccent">@color/lightred</item>
+		<item name="seekBarStyle">@style/SeekBarLightRed</item>
+		<item name="android:listViewStyle">@style/ListViewLightRed</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewLightRed.White</item>
+	</style>
+  
+	<style name="Light_Red" parent="@style/Light">   
+		<item name="colorAccent">@color/red</item>
+		<item name="seekBarStyle">@style/SeekBarRed</item>
+		<item name="android:listViewStyle">@style/ListViewRed</item>
+		<item name="android:listViewWhiteStyle">@style/ListViewRed.White</item>
+	</style>
+
+</resources>

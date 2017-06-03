@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file test.xml
+ - @brief Layout
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:gravity="center_horizontal"
+		>
+	
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/test_toolbar"
+			android:minHeight="?attr/actionBarSize"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="?attr/colorPrimary"
+			android:theme="?attr/actionBarStyle"
+			>
+		</android.support.v7.widget.Toolbar>
+	    
+		<View
+		    android:layout_width="fill_parent"
+			android:layout_height="20dp"
+			/>
+		
+		<Button
+			android:id="@+id/test_record_on_microphone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/test_record_on_microphone"
+			android:layout_weight="1"
+			/>
+		
+		<Button
+			android:id="@+id/test_stop_record"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/test_stop_record"
+			android:layout_weight="1"
+			/>
+		
+		<Button
+			android:id="@+id/test_insert_call"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/test_insert_call"
+			android:layout_weight="1"
+			/>
+
+		<Button
+			android:id="@+id/test_add_event"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/test_add_event"
+			android:layout_weight="1"
+			/>
+		
+		<Button
+			android:id="@+id/test_delete_all_events"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/test_delete_all_events"
+			android:layout_weight="1"
+			/>
+
+		<Button
+			android:id="@+id/test_notification"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/test_notification"
+			android:layout_weight="1"
+			/>
+		
+		<Button
+			android:id="@+id/test_toast_message"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/test_toast_message"
+			android:layout_weight="1"
+			/>
+
+		<Button
+			android:id="@+id/test_purge_all_records"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/test_purge_all_records"
+			android:layout_weight="1"
+			/>
+
+	</LinearLayout>
+	
+</ScrollView>

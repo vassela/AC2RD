@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ - @file styles_seekbar.xml
+ - @brief Values
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="SeekBarLightBlue" parent="android:Widget.SeekBar">
+		<item name="android:progressDrawable">@drawable/mediacontroller_progressbar_lightblue</item>
+		<item name="android:indeterminateDrawable">@drawable/mediacontroller_progressbar_lightblue</item>
+		<item name="android:minHeight">13dip</item>
+		<item name="android:maxHeight">13dip</item>
+		<item name="android:thumb">@drawable/mediacontroller_thumb_lightblue</item>
+		<item name="android:thumbOffset">16dip</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+	</style>
+	
+	<style name="SeekBarBlue" parent="android:Widget.SeekBar">
+		<item name="android:progressDrawable">@drawable/mediacontroller_progressbar_blue</item>
+		<item name="android:indeterminateDrawable">@drawable/mediacontroller_progressbar_blue</item>
+		<item name="android:minHeight">13dip</item>
+		<item name="android:maxHeight">13dip</item>
+		<item name="android:thumb">@drawable/mediacontroller_thumb_blue</item>
+		<item name="android:thumbOffset">16dip</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+	</style>
+
+	<style name="SeekBarLightPurple" parent="android:Widget.SeekBar">
+		<item name="android:progressDrawable">@drawable/mediacontroller_progressbar_lightpurple</item>
+		<item name="android:indeterminateDrawable">@drawable/mediacontroller_progressbar_lightpurple</item>
+		<item name="android:minHeight">13dip</item>
+		<item name="android:maxHeight">13dip</item>
+		<item name="android:thumb">@drawable/mediacontroller_thumb_lightpurple</item>
+		<item name="android:thumbOffset">16dip</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+	</style>
+
+	<style name="SeekBarPurple" parent="android:Widget.SeekBar">
+		<item name="android:progressDrawable">@drawable/mediacontroller_progressbar_purple</item>
+		<item name="android:indeterminateDrawable">@drawable/mediacontroller_progressbar_purple</item>
+		<item name="android:minHeight">13dip</item>
+		<item name="android:maxHeight">13dip</item>
+		<item name="android:thumb">@drawable/mediacontroller_thumb_purple</item>
+		<item name="android:thumbOffset">16dip</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+	</style>
+
+	<style name="SeekBarLightGreen" parent="android:Widget.SeekBar">
+		<item name="android:progressDrawable">@drawable/mediacontroller_progressbar_lightgreen</item>
+		<item name="android:indeterminateDrawable">@drawable/mediacontroller_progressbar_lightgreen</item>
+		<item name="android:minHeight">13dip</item>
+		<item name="android:maxHeight">13dip</item>
+		<item name="android:thumb">@drawable/mediacontroller_thumb_lightgreen</item>
+		<item name="android:thumbOffset">16dip</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+	</style>
+
+	<style name="SeekBarGreen" parent="android:Widget.SeekBar">
+		<item name="android:progressDrawable">@drawable/mediacontroller_progressbar_green</item>
+		<item name="android:indeterminateDrawable">@drawable/mediacontroller_progressbar_green</item>
+		<item name="android:minHeight">13dip</item>
+		<item name="android:maxHeight">13dip</item>
+		<item name="android:thumb">@drawable/mediacontroller_thumb_green</item>
+		<item name="android:thumbOffset">16dip</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+	</style>
+
+	<style name="SeekBarLightOrange" parent="android:Widget.SeekBar">
+		<item name="android:progressDrawable">@drawable/mediacontroller_progressbar_lightorange</item>
+		<item name="android:indeterminateDrawable">@drawable/mediacontroller_progressbar_lightorange</item>
+		<item name="android:minHeight">13dip</item>
+		<item name="android:maxHeight">13dip</item>
+		<item name="android:thumb">@drawable/mediacontroller_thumb_lightorange</item>
+		<item name="android:thumbOffset">16dip</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+	</style>
+
+	<style name="SeekBarOrange" parent="android:Widget.SeekBar">
+		<item name="android:progressDrawable">@drawable/mediacontroller_progressbar_orange</item>
+		<item name="android:indeterminateDrawable">@drawable/mediacontroller_progressbar_orange</item>
+		<item name="android:minHeight">13dip</item>
+		<item name="android:maxHeight">13dip</item>
+		<item name="android:thumb">@drawable/mediacontroller_thumb_orange</item>
+		<item name="android:thumbOffset">16dip</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+	</style>
+
+	<style name="SeekBarLightRed" parent="android:Widget.SeekBar">
+		<item name="android:progressDrawable">@drawable/mediacontroller_progressbar_lightred</item>
+		<item name="android:indeterminateDrawable">@drawable/mediacontroller_progressbar_lightred</item>
+		<item name="android:minHeight">13dip</item>
+		<item name="android:maxHeight">13dip</item>
+		<item name="android:thumb">@drawable/mediacontroller_thumb_lightred</item>
+		<item name="android:thumbOffset">16dip</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+	</style>
+
+	<style name="SeekBarRed" parent="android:Widget.SeekBar">
+		<item name="android:progressDrawable">@drawable/mediacontroller_progressbar_red</item>
+		<item name="android:indeterminateDrawable">@drawable/mediacontroller_progressbar_red</item>
+		<item name="android:minHeight">13dip</item>
+		<item name="android:maxHeight">13dip</item>
+		<item name="android:thumb">@drawable/mediacontroller_thumb_red</item>
+		<item name="android:thumbOffset">16dip</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:paddingRight">16dip</item>
+	</style>
+
+</resources>

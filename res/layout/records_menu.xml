@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--  
+ - @file records_menu.xml
+ - @brief Layout
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+	<item
+	    android:id="@+id/records_menu_order"
+	    android:title="@string/records_menu_order"
+	    >	
+		<menu android:id="@+id/records_submenu_order">
+			<item
+			    android:id="@+id/records_submenu_order_by_asc"
+			    android:title="@string/records_order_by_asc"
+			    />	
+			<item
+			    android:id="@+id/records_submenu_order_by_desc"
+			    android:title="@string/records_order_by_desc"
+			    />
+		</menu>
+	</item>
+	
+	<item
+	    android:id="@+id/records_menu_display"
+	    android:title="@string/records_menu_display"
+	    >	
+		<menu android:id="@+id/records_submenu_display">
+			<item
+			    android:id="@+id/records_submenu_display_call_of_day"
+			    android:title="@string/records_display_call_of_day"
+			    />
+			<item
+			    android:id="@+id/records_submenu_display_all_call"
+			    android:title="@string/records_display_all_call"
+			    />
+		</menu>
+	</item>
+	
+</menu>

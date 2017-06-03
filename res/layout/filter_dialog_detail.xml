@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--  
+ - @file filter_dialog_detail.xml
+ - @brief Layout
+ - @author Arnaud Vassellier
+ - @version 1.0
+ - @date 2016
+ - 
+ - This file is part of ACRRD (Android Call Recorder Replayer Dictaphone).
+
+    ACRRD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    ACRRD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with ACRRD.  If not, see <http://www.gnu.org/licenses/>
+ - 
+-->
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	<LinearLayout
+		android:layout_width='fill_parent'
+		android:layout_height='fill_parent'
+		android:orientation="vertical"
+		android:gravity="center_horizontal"
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		>
+		
+		<View
+		    android:layout_width="fill_parent"
+			android:layout_height="20dp"
+			/>
+
+		<TextView
+			android:id='@+id/filter_dialog_detail_number'
+			android:layout_height='wrap_content'
+			android:layout_width='fill_parent'
+			android:text=''
+			/>
+
+		<View
+		    android:layout_width="fill_parent"
+			android:layout_height="20dp"
+			/>
+	
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="0.5dp"
+			android:layout_marginBottom="0dp"
+			android:background="?attr/colorControlHighlight"
+			/>
+
+		<Button
+			android:id='@+id/filter_dialog_detail_acquit'
+			android:layout_height='wrap_content'
+			android:layout_width='fill_parent'
+			android:gravity="left|center_vertical"
+			android:paddingLeft="2dip"
+			android:drawablePadding="2dip"
+			style="@style/Widget.AppCompat.Button.Borderless"
+			android:background="?attr/selectableItemBackground"
+			android:drawableLeft='@drawable/ic_menu_revert'
+			android:text='@string/filter_dialog_detail_acquit'
+			/>
+	
+	</LinearLayout>
+	
+</ScrollView>
