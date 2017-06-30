@@ -194,7 +194,7 @@ public class Records extends Activity implements OnItemClickListener, OnItemLong
 	        {
 	                long startingDate = aCursor.getLong(aColumnIndex);
 	                TextView textView = (TextView) aView;
-	                textView.setText("Date : " + simpleDateFormat.format(new Date(startingDate)) + " ");
+	                textView.setText(getApplicationContext().getString(R.string.record_dialog_detail_startingdate) + " : " + simpleDateFormat.format(new Date(startingDate)) + " ");
 	                return true;
 	        }
 	    	
@@ -203,7 +203,7 @@ public class Records extends Activity implements OnItemClickListener, OnItemLong
 	                long duration = aCursor.getLong(aColumnIndex);
 	                duration = duration - 3600000;
 	                TextView textView = (TextView) aView;
-	                textView.setText("Durée : " + simpleDurationFormat.format(new Date(duration)));
+	                textView.setText(getApplicationContext().getString(R.string.record_dialog_detail_duration) + " : " + simpleDurationFormat.format(new Date(duration)));
 	                return true;
 	        }
 	    	
@@ -211,7 +211,7 @@ public class Records extends Activity implements OnItemClickListener, OnItemLong
 	    	{
 	            int locked = aCursor.getInt(aColumnIndex);
 	            TextView textView = (TextView) aView;
-	            textView.setText("Locked : " + locked);
+	            textView.setText(getApplicationContext().getString(R.string.record_dialog_detail_locked) + " : " + locked);
 	            return true;
 	    	}
 		}

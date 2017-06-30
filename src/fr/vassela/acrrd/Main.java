@@ -26,6 +26,7 @@ package fr.vassela.acrrd;
 
 import java.util.ArrayList;
 import java.util.Date;
+
 import fr.vassela.acrrd.R;
 import fr.vassela.acrrd.database.DatabaseManager;
 import fr.vassela.acrrd.localizer.LocalizerManager;
@@ -43,8 +44,10 @@ import android.app.Activity;
 import android.app.TabActivity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatCallback;
@@ -81,7 +84,7 @@ public class Main extends TabActivity implements AppCompatCallback
 
 	private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle drawerToggle;
-    private ListView leftDrawerList;
+    private ListView drawerList;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -99,62 +102,72 @@ public class Main extends TabActivity implements AppCompatCallback
 			delegate.onCreate(savedInstanceState);
 	
 			delegate.setContentView(R.layout.main);
+			
+			SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+			int currentLocaleIndex = Integer.parseInt(sharedPreferences.getString("preferences_locale_set", "0"));
+			String currentLocale = localizerManager.getLocale(getApplicationContext()).toString();
 
 			ArrayList<String> slideMenuTitles = new ArrayList<String>();
-			slideMenuTitles.add(getApplicationContext().getString(R.string.main_toolbar_preferences).toString());
+			slideMenuTitles.add(getApplicationContext().getString(R.string.preferences_locale).toString());
 			//slideMenuTitles.add(getApplicationContext().getString(R.string.main_toolbar_test).toString());
+			slideMenuTitles.add(getApplicationContext().getString(R.string.main_toolbar_preferences).toString());
 			slideMenuTitles.add(getApplicationContext().getString(R.string.main_toolbar_log).toString());
 			slideMenuTitles.add(getApplicationContext().getString(R.string.main_toolbar_about).toString());
 			slideMenuTitles.add(getApplicationContext().getString(R.string.main_toolbar_exit).toString());
 			
 			ArrayList<String> slideMenuSubtitles = new ArrayList<String>();
-			slideMenuSubtitles.add(getApplicationContext().getString(R.string.main_toolbar_preferences_description).toString());
+			slideMenuSubtitles.add(currentLocale);
 			//slideMenuSubtitles.add(getApplicationContext().getString(R.string.main_toolbar_test_description).toString());
+			slideMenuSubtitles.add(getApplicationContext().getString(R.string.main_toolbar_preferences_description).toString());
 			slideMenuSubtitles.add(getApplicationContext().getString(R.string.main_toolbar_log_description).toString());
 			slideMenuSubtitles.add(getApplicationContext().getString(R.string.main_toolbar_about_description).toString());
 			slideMenuSubtitles.add(getApplicationContext().getString(R.string.main_toolbar_exit_description).toString());
-			
+
 			ArrayList<Integer> slideMenuIcons = new ArrayList<Integer>();
+			slideMenuIcons.add(themeManager.getLocaleFlag(getApplicationContext(), currentLocaleIndex));
 			slideMenuIcons.add(R.drawable.ic_menu_preferences);
 			//slideMenuIcons.add(R.drawable.ic_menu_preferences);
 			slideMenuIcons.add(R.drawable.ic_menu_archive);
 			slideMenuIcons.add(R.drawable.ic_menu_info_details);
 			slideMenuIcons.add(R.drawable.ic_menu_revert);
 			
-	        leftDrawerList = (ListView) findViewById(R.id.left_drawer);
+	        drawerList = (ListView) findViewById(R.id.drawer_list);
 	        drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
 
 	        SlidingMenuAdapter slidingMenuAdapter = new SlidingMenuAdapter(this, slideMenuTitles, slideMenuSubtitles, slideMenuIcons);
 	        
-	        leftDrawerList.setAdapter(slidingMenuAdapter);
+	        drawerList.setAdapter(slidingMenuAdapter);
 
-	        leftDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+	        drawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 	            @Override
 	            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 	                
 	                switch(position)
 	                {
-		                case 0 :
+	                	case 0 :
+	                		break;
+	                		
+						/*case 0 :
+							drawerLayout.closeDrawers();
+							startActivity(new Intent(getApplicationContext(), Test.class));
+							break;*/
+	                
+		                case 1 :
 		                	drawerLayout.closeDrawers();
 		            		startActivity(new Intent(getApplicationContext(), Preferences.class));
 		            		break;
 		            		
-		            	/*case 1 :
-		            		drawerLayout.closeDrawers();
-		            		startActivity(new Intent(getApplicationContext(), Test.class));
-		            		break;*/
-		            		
-		            	case 1 :
+		            	case 2 :
 		            		drawerLayout.closeDrawers();
 		            		startActivity(new Intent(getApplicationContext(), TelephoneCallLogger.class));
 		            		break;
 
-		            	case 2 :
+		            	case 3 :
 		            		drawerLayout.closeDrawers();
 		            		startActivity(new Intent(getApplicationContext(), About.class));
 		            		break;
 		            		
-		            	case 3 :
+		            	case 4 :
 		            		drawerLayout.closeDrawers();
 		            		RecordServiceManager recordServiceManager = new RecordServiceManager();
 		            		boolean isRecordServiceRunning = recordServiceManager.isRunning(getApplicationContext());

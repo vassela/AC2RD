@@ -29,8 +29,8 @@
     <!-- GUI -->
     <string name="app_name">Android Call Recorder Replayer Dictaphone</string>
     <string name="app_acronym">AC2RD</string>
-    <string name="app_version">Version 1.0</string>
-    <string name="app_copyright">Copyright © 2016 A.Vassellier</string>
+    <string name="app_version">Version 1.1.0</string>
+    <string name="app_copyright">Copyright © 2016&#8211;2017 A.Vassellier</string>
     <string name="widget_app_acronym">@string/app_acronym</string>
     <string name="widget_telephone_call_recorder_state_off">Aucune action en cours</string>
     <string name="widget_telephone_call_recorder_state_on">Enregistrement en cours</string>
@@ -296,8 +296,8 @@
 	<string name="preferences_locale_set_summary">Cette option permet de définir la langue à utiliser dans le logiciel.
 	    										\nLangue :</string>
 	<string name="preferences_locale_set_list_entries_0">Langue par défaut</string>
-	<string name="preferences_locale_set_list_entries_1">fr</string>
-	<string name="preferences_locale_set_list_entries_2">en</string>
+	<string name="preferences_locale_set_list_entries_1">fr_FR</string>
+	<string name="preferences_locale_set_list_entries_2">en_US</string>
 	<string name="preferences_theme">Theme</string>
 	<string name="preferences_theme_set">Définir le theme</string>
 	<string name="preferences_theme_set_summary">Cette option permet de définir le theme du logiciel.

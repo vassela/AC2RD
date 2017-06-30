@@ -82,7 +82,7 @@
 			android:background="?attr/android:windowBackground"
 			>
 			<ListView
-				android:id="@+id/left_drawer"
+				android:id="@+id/drawer_list"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"
 				/>

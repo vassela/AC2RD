@@ -24,7 +24,11 @@
 
 package fr.vassela.acrrd.theme;
 
+import java.util.Collections;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Locale;
+
 import fr.vassela.acrrd.R;
 import fr.vassela.acrrd.database.DatabaseManager;
 import android.app.Activity;
@@ -32,6 +36,7 @@ import android.app.Application;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
@@ -168,7 +173,11 @@ public class ThemeManager extends Application
 				Color.argb(88, 255, 68, 68), Color.argb(88, 204, 0, 0)}
 	};
 	
-	
+	private int[] locales_flags = {
+			R.drawable.en_us,
+			R.drawable.fr_fr,
+			R.drawable.en_us
+	};
 	
 	private DatabaseManager databaseManager = new DatabaseManager();
     
@@ -386,4 +395,20 @@ public class ThemeManager extends Application
         context.getTheme ().resolveAttribute (attributeColor, value, true);
         return value.data;
     }
+    
+    public int getLocaleFlag(Context context, int locale)
+    {
+    	if(locale == 0)
+		{
+    		Locale defaultLocale = Resources.getSystem().getConfiguration().locale;
+    		if(defaultLocale.toString().contains("fr")){ return R.drawable.fr_fr; }
+    		else if(defaultLocale.toString().contains("en")){ return R.drawable.en_us; }
+    		else { return R.drawable.en_us; }
+		}
+    	else
+    	{
+	    	return locales_flags[locale];
+    	}
+    }
+
 }

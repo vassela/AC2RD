@@ -38,7 +38,7 @@ import android.util.Log;
 
 public class LocalizerManager extends Application
 {
-	private String[] locales = { "default", "fr", "en" };
+	private String[] locales = { "default", "fr_FR", "en_US" };
     private DatabaseManager databaseManager = new DatabaseManager();
     
     public void setLocale(Context context, String language)

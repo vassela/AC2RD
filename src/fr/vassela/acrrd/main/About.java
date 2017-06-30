@@ -25,6 +25,7 @@
 package fr.vassela.acrrd.main;
 
 import java.util.Date;
+
 import fr.vassela.acrrd.R;
 import fr.vassela.acrrd.database.DatabaseManager;
 import fr.vassela.acrrd.localizer.LocalizerManager;
@@ -35,6 +36,7 @@ import android.app.TabActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
@@ -79,6 +81,16 @@ public class About extends PreferenceActivity implements AppCompatCallback, Shar
         
         addPreferencesFromResource(R.layout.about_preferences);
         PreferenceManager.getDefaultSharedPreferences(this).registerOnSharedPreferenceChangeListener(this);
+        
+        findPreference("about_app_version").setOnPreferenceClickListener(new Preference.OnPreferenceClickListener()
+		{
+	        @Override
+	        public boolean onPreferenceClick(Preference preference)
+	        {
+	            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/vassela/AC2RD")));
+	            return false;
+	        }
+	    });
         
         findPreference("about_app_acquitment_detail").setOnPreferenceClickListener(new Preference.OnPreferenceClickListener()
 		{
