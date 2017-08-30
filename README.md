@@ -100,6 +100,7 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 - Current version: 1.1.0
 - Self-signed certificate (non-market application)
 - Content rating: PEGI 3
+- GNU GPLv3 license
 
 ## Install :
 - The AC2RD software can be downloaded via this link (right click and save as): <a href="https://github.com/vassela/AC2RD/blob/master/bin/AC2RD.apk" target="_blank" download="AC2RD.apk">click me</a>
