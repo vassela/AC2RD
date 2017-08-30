@@ -104,3 +104,6 @@ AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone call
 - Allow installation of non-market applications
 - Install it
 - Enjoy ;-)
+
+## Wiki :
+- The AC2RD wiki : <a href="https://github.com/vassela/AC2RD/wiki">click me</a>
