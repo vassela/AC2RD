@@ -1306,6 +1306,14 @@ public class Preferences extends PreferenceActivity implements AppCompatCallback
 		
 		return sharedPreferencesSplashscreenValue;
 	}
+	
+	public static boolean getSharedPreferenceRecordActivate(Context context)
+	{
+		SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
+		boolean sharedPreferencesRecordActivateValue = sharedPreferences.getBoolean("preferences_record_activate", false);
+		
+		return sharedPreferencesRecordActivateValue;
+	}
 
 	@Override
 	public void onSupportActionModeFinished(ActionMode arg0)
@@ -1337,4 +1345,5 @@ public class Preferences extends PreferenceActivity implements AppCompatCallback
         
         return super.onOptionsItemSelected(item);
     }
+
 }

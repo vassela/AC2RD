@@ -25,7 +25,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="fr.vassela.acrrd" android:versionCode="1" android:versionName="1.0">
+	package="fr.vassela.acrrd" android:versionCode="1" android:versionName="1.1.0">
 	
 	<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="24"/>
 	
@@ -42,6 +42,7 @@
 	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 	<uses-permission android:name="android.permission.RECORD_AUDIO" />
 	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
 	<application android:icon="@drawable/icon" android:label="@string/app_acronym">
 		<!-- SPLASHSCREEN - MAIN & LAUNCHER -->
@@ -140,12 +141,20 @@
 		<provider android:name="fr.vassela.acrrd.database.DatabaseProvider"
 			android:authorities="fr.vassela.acrrd.provider" android:multiprocess="false" />
 		
+		<!-- CALL RECEIVER -->
 		<receiver android:name="fr.vassela.acrrd.receiver.TelephoneCallReceiver"
 			android:enabled="true"
 			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.NEW_OUTGOING_CALL" />
 				<action android:name="android.intent.action.PHONE_STATE" />
+			</intent-filter>
+		</receiver>
+		
+		<!-- BOOT RECEIVER -->
+		<receiver android:name="fr.vassela.acrrd.receiver.BootReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
 			</intent-filter>
 		</receiver>
 		

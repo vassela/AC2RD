@@ -44,6 +44,7 @@ public class SplashScreen extends Activity implements OnSharedPreferenceChangeLi
 	private boolean active = true;
 	private final int SPLASH_TIME = 5000; 
 	private boolean normalLaunch = true;
+	private boolean boot = false;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -51,7 +52,7 @@ public class SplashScreen extends Activity implements OnSharedPreferenceChangeLi
 		super.onCreate(savedInstanceState);
 
 		PreferenceManager.getDefaultSharedPreferences(this).registerOnSharedPreferenceChangeListener(this);
-		
+
 		Preferences.onSharedPreferenceRecordActivate(getApplicationContext());
 		
 		Preferences.onSharedPreferencePurgeActivate(getApplicationContext());
