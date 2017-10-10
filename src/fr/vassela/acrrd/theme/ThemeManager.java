@@ -175,8 +175,16 @@ public class ThemeManager extends Application
 	
 	private int[] locales_flags = {
 			R.drawable.en_us,
+			R.drawable.ar_sa,
+			R.drawable.de_de,
+			R.drawable.en_us,
+			R.drawable.es_es,
 			R.drawable.fr_fr,
-			R.drawable.en_us
+			R.drawable.hi_in,
+			R.drawable.jp_jp,
+			R.drawable.pt_pt,
+			R.drawable.ru_ru,
+			R.drawable.zh_cn
 	};
 	
 	private DatabaseManager databaseManager = new DatabaseManager();
@@ -401,8 +409,16 @@ public class ThemeManager extends Application
     	if(locale == 0)
 		{
     		Locale defaultLocale = Resources.getSystem().getConfiguration().locale;
-    		if(defaultLocale.toString().contains("fr")){ return R.drawable.fr_fr; }
+    		if(defaultLocale.toString().contains("ar")){ return R.drawable.ar_sa; }
+    		else if(defaultLocale.toString().contains("de")){ return R.drawable.de_de; }
     		else if(defaultLocale.toString().contains("en")){ return R.drawable.en_us; }
+    		else if(defaultLocale.toString().contains("es")){ return R.drawable.es_es; }
+    		else if(defaultLocale.toString().contains("fr")){ return R.drawable.fr_fr; }
+    		else if(defaultLocale.toString().contains("hi")){ return R.drawable.hi_in; }
+    		else if(defaultLocale.toString().contains("jp")){ return R.drawable.jp_jp; }
+    		else if(defaultLocale.toString().contains("pt")){ return R.drawable.pt_pt; }
+    		else if(defaultLocale.toString().contains("ru")){ return R.drawable.ru_ru; }
+    		else if(defaultLocale.toString().contains("zh")){ return R.drawable.zh_cn; }
     		else { return R.drawable.en_us; }
 		}
     	else

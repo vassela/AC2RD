@@ -315,7 +315,7 @@
 	<string name="preferences_theme_set_list_entries_2">Dark</string>
 	<string name="preferences_theme_set_list_entries_3">Light</string>
 	<string name="preferences_color_theme_set">Define the theme color</string>
-	<string name="preferences_color_theme_set_summary">This option allows you to define the theme color to be used in the software.
+	<string name="preferences_color_theme_set_summary">This option allows you to define the color of the theme to be used in the software.
 	    										\nCouleur :</string>
 	<string name="preferences_color_theme_set_list_entries_0">Light blue</string>
 	<string name="preferences_color_theme_set_list_entries_1">Blue</string>
@@ -426,8 +426,8 @@
 	<string name="log_preferences_notifications_vibrate_activate_changed_start">Activation : notifications with vibrations</string>
 	<string name="log_preferences_notifications_vibrate_activate_changed_stop">Deactivation : notifications with vibrations</string>
 	<string name="log_preferences_error_notifications_vibrate_activate_changed">An error has occurred (Preferences : onSharedPreferenceNotificationsVibrateActivateChanged)</string>
-	<string name="log_preferences_notifications_led_activate_changed_start">Activation : notifications with LED</string>
-	<string name="log_preferences_notifications_led_activate_changed_stop">Deactivation : notifications with LED</string>
+	<string name="log_preferences_notifications_led_activate_changed_start">Activation : notifications with led</string>
+	<string name="log_preferences_notifications_led_activate_changed_stop">Deactivation : notifications with led</string>
 	<string name="log_preferences_error_notifications_led_activate_changed">An error has occurred (Preferences : onSharedPreferenceNotificationsLedActivateChanged)</string>
 	<string name="log_preferences_toast_messages_activate_changed_start">Activation : toast messages</string>
 	<string name="log_preferences_toast_messages_activate_changed_stop">Deactivation : toast messages</string>

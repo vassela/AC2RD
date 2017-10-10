@@ -32,14 +32,14 @@
     <string name="app_version">Version 1.1.0</string>
     <string name="app_copyright">Copyright © 2016&#8211;2017 A.Vassellier</string>
     <string name="widget_app_acronym">@string/app_acronym</string>
-    <string name="widget_telephone_call_recorder_state_off">No action in progress</string>
-    <string name="widget_telephone_call_recorder_state_on">Record in progress</string>
-    <string name="widget_telephone_call_recorder_state_on_incoming_call">Record in progress (incoming call)</string>
-	<string name="widget_telephone_call_recorder_state_on_outgoing_call">Record in progress (outgoing call)</string>
-	<string name="widget_telephone_call_recorder_state_on_microphone">Record in progress (dictaphone)</string>
-	<string name="widget_storage_state">Available space</string>
-	<string name="widget_recorder_service_state_on">Call recorder enabled</string>
-	<string name="widget_recorder_service_state_off">Call recorder disabled</string>
+    <string name="widget_telephone_call_recorder_state_off">ليس هناك أي إجراء قيد التقدم</string>
+    <string name="widget_telephone_call_recorder_state_on">سجل قيد التقدم</string>
+    <string name="widget_telephone_call_recorder_state_on_incoming_call">سجل قيد التقدم: مكالمة واردة</string>
+	<string name="widget_telephone_call_recorder_state_on_outgoing_call">سجل قيد التقدم: مكالمة صادرة</string>
+	<string name="widget_telephone_call_recorder_state_on_microphone">سجل في التقدم: الإملاء</string>
+	<string name="widget_storage_state">مساحة متاحة</string>
+	<string name="widget_recorder_service_state_on">تم تمكين مسجل المكالمات</string>
+	<string name="widget_recorder_service_state_off">تم تعطيل تسجيل المكالمات</string>
 	<string name="widget_playlist">Playlist</string>
 	<string name="widget_microphone_start">Rec</string>
 	<string name="widget_microphone_stop">Stop</string>
@@ -47,12 +47,12 @@
     <string name="splashscreen_app_acronym">@string/app_acronym</string>
     <string name="splashscreen_app_version">@string/app_version</string>
     <string name="splashscreen_app_copyright">@string/app_copyright</string>
-    <string name="acquitment_warning">Warning</string>
-    <string name="acquitment_text">Voluntarily harming the privacy of another\'s privacy, by capturing, recording or transmitting, by any means, without the consent of the author, words or phrases, may be punished by a fine and / or imprisonment.
-									\n\nWhere the acts referred to above have been carried out in the eyes of the persons concerned without their having objected to them, when they were in a position to do so, their consent may be presumed.
-									\n\nCarry, or allow the public or any third party to use, or use in any way, any record, or document obtained by means of any of the acts mentioned above, may be punished by the same sentences.
-									\n\nWhere the offense is committed by means of the written or audiovisual press, the special provisions of the laws governing these matters shall apply as regards the determination of the persons responsible.
-									\n\nPlease check the applicable laws in your country / state before registering telephone conversations with this software.\n</string>
+    <string name="acquitment_warning">تحذير</string>
+    <string name="acquitment_text">ويجوز أن يعاقب بالغرامة و / أو السجن بالسجن أو الإيذاء الطوعي لخصوصية خصوصية الآخرين، عن طريق التقاط أو تسجيل أو نقل بأي وسيلة كانت، دون موافقة المؤلف أو الكلمات أو العبارات.
+									\n\nوإذا كانت الأفعال المشار إليها أعلاه قد نفذت في نظر الأشخاص المعنيين دون اعتراضهم عليها، فإنهم قد يكونون في وضع يسمح لهم بذلك.
+									\n\nحمل أو السماح للجمهور أو لأي طرف ثالث باستخدام، أو استخدام بأي شكل من الأشكال، أي سجل أو وثيقة تم الحصول عليها عن طريق أي من الأفعال المذكورة أعلاه، يمكن أن يعاقب بنفس الأحكام.
+									\n\nوفي الحالات التي ترتكب فيها الجريمة عن طريق الصحافة المكتوبة أو السمعية والبصرية، تطبق الأحكام الخاصة للقوانين التي تحكم هذه المسائل فيما يتعلق بتحديد الأشخاص المسؤولين عنها.
+									\n\nيرجى مراجعة القوانين المعمول بها في بلدك / ولايتكم قبل تسجيل المحادثات الهاتفية مع هذا البرنامج.\n</string>
     <string name="acquitment_checkbox_text">\nI have read the above terms of use : </string>
 	<string name="acquitment_accept">Accept</string>
 	<string name="acquitment_cancel">Refuse</string>
@@ -315,7 +315,7 @@
 	<string name="preferences_theme_set_list_entries_2">Dark</string>
 	<string name="preferences_theme_set_list_entries_3">Light</string>
 	<string name="preferences_color_theme_set">Define the theme color</string>
-	<string name="preferences_color_theme_set_summary">This option allows you to define the theme color to be used in the software.
+	<string name="preferences_color_theme_set_summary">This option allows you to define the color of the theme to be used in the software.
 	    										\nCouleur :</string>
 	<string name="preferences_color_theme_set_list_entries_0">Light blue</string>
 	<string name="preferences_color_theme_set_list_entries_1">Blue</string>
@@ -426,8 +426,8 @@
 	<string name="log_preferences_notifications_vibrate_activate_changed_start">Activation : notifications with vibrations</string>
 	<string name="log_preferences_notifications_vibrate_activate_changed_stop">Deactivation : notifications with vibrations</string>
 	<string name="log_preferences_error_notifications_vibrate_activate_changed">An error has occurred (Preferences : onSharedPreferenceNotificationsVibrateActivateChanged)</string>
-	<string name="log_preferences_notifications_led_activate_changed_start">Activation : notifications with LED</string>
-	<string name="log_preferences_notifications_led_activate_changed_stop">Deactivation : notifications with LED</string>
+	<string name="log_preferences_notifications_led_activate_changed_start">Activation : notifications with led</string>
+	<string name="log_preferences_notifications_led_activate_changed_stop">Deactivation : notifications with led</string>
 	<string name="log_preferences_error_notifications_led_activate_changed">An error has occurred (Preferences : onSharedPreferenceNotificationsLedActivateChanged)</string>
 	<string name="log_preferences_toast_messages_activate_changed_start">Activation : toast messages</string>
 	<string name="log_preferences_toast_messages_activate_changed_stop">Deactivation : toast messages</string>

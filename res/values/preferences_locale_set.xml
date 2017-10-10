@@ -30,12 +30,28 @@
 		<item>@string/preferences_locale_set_list_entries_0</item>
 		<item>@string/preferences_locale_set_list_entries_1</item>
 		<item>@string/preferences_locale_set_list_entries_2</item>
+		<item>@string/preferences_locale_set_list_entries_3</item>
+		<item>@string/preferences_locale_set_list_entries_4</item>
+		<item>@string/preferences_locale_set_list_entries_5</item>
+		<item>@string/preferences_locale_set_list_entries_6</item>
+		<item>@string/preferences_locale_set_list_entries_7</item>
+		<item>@string/preferences_locale_set_list_entries_8</item>
+		<item>@string/preferences_locale_set_list_entries_9</item>
+		<item>@string/preferences_locale_set_list_entries_10</item>
 	</string-array>
 	
 	<string-array name="preferences_locale_set_list_values">
 		<item>0</item>
 		<item>1</item>
 		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
 	</string-array>
 	
 </resources>
