@@ -363,7 +363,7 @@
 	
 	
 	<!-- Logs -->
-	<string name="log_splashscreen_error_create">Se ha producido un error (SplashScreen : onCreate)</string>
+	<string name="log_splashscreen_error_create">Se ha producido un error (SplashScreen: onCreate)</string>
 	<string name="log_acquitment_error_create">Se ha producido un error (Acquitment : onCreate)</string>
 	<string name="log_acquitment_error_click">Se ha producido un error (Acquitment : onClick)</string>
 	<string name="log_main_error_create">Se ha producido un error (Main : onCreate)</string>
