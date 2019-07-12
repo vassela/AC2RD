@@ -363,7 +363,7 @@
 	
 	
 	<!-- Logs -->
-	<string name="log_splashscreen_error_create">حدث خطأ (SplashScreen : onCreate)</string>
+	<string name="log_splashscreen_error_create">حدث خطأ (SplashScreen: onCreate)</string>
 	<string name="log_acquitment_error_create">حدث خطأ (Acquitment : onCreate)</string>
 	<string name="log_acquitment_error_click">حدث خطأ (Acquitment : onClick)</string>
 	<string name="log_main_error_create">حدث خطأ (Main : onCreate)</string>
