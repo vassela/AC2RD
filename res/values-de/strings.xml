@@ -364,7 +364,7 @@
 	
 	<!-- Logs -->
 	<string name="log_splashscreen_error_create">Ein Fehler ist aufgetreten (SplashScreen: onCreate)</string>
-	<string name="log_acquitment_error_create">Ein Fehler ist aufgetreten (Acquitment : onCreate)</string>
+	<string name="log_acquitment_error_create">Ein Fehler ist aufgetreten (Acquitment: onCreate)</string>
 	<string name="log_acquitment_error_click">Ein Fehler ist aufgetreten (Acquitment : onClick)</string>
 	<string name="log_main_error_create">Ein Fehler ist aufgetreten (Main : onCreate)</string>
 	<string name="log_database_manager_error_request">Ein Fehler ist aufgetreten (DatabaseManager)</string>
