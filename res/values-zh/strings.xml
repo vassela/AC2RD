@@ -364,7 +364,7 @@
 	
 	<!-- Logs -->
 	<string name="log_splashscreen_error_create">发生了错误 (SplashScreen: onCreate)</string>
-	<string name="log_acquitment_error_create">发生了错误 (Acquitment : onCreate)</string>
+	<string name="log_acquitment_error_create">发生了错误 (Acquitment: onCreate)</string>
 	<string name="log_acquitment_error_click">发生了错误 (Acquitment : onClick)</string>
 	<string name="log_main_error_create">发生了错误 (Main : onCreate)</string>
 	<string name="log_database_manager_error_request">发生了错误 (DatabaseManager)</string>
