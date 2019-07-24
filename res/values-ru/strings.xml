@@ -365,7 +365,7 @@
 	<!-- Logs -->
 	<string name="log_splashscreen_error_create">произошла ошибка (SplashScreen: onCreate)</string>
 	<string name="log_acquitment_error_create">произошла ошибка (Acquitment: onCreate)</string>
-	<string name="log_acquitment_error_click">произошла ошибка (Acquitment : onClick)</string>
+	<string name="log_acquitment_error_click">произошла ошибка (Acquitment: onClick)</string>
 	<string name="log_main_error_create">произошла ошибка (Main : onCreate)</string>
 	<string name="log_database_manager_error_request">произошла ошибка (DatabaseManager)</string>
 	<string name="log_purge_service_error_create">произошла ошибка (PurgeService : onCreate)</string>
