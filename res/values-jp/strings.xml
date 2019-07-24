@@ -365,7 +365,7 @@
 	<!-- Logs -->
 	<string name="log_splashscreen_error_create">エラーが発生しました (SplashScreen: onCreate)</string>
 	<string name="log_acquitment_error_create">エラーが発生しました (Acquitment: onCreate)</string>
-	<string name="log_acquitment_error_click">エラーが発生しました (Acquitment : onClick)</string>
+	<string name="log_acquitment_error_click">エラーが発生しました (Acquitment: onClick)</string>
 	<string name="log_main_error_create">エラーが発生しました (Main : onCreate)</string>
 	<string name="log_database_manager_error_request">エラーが発生しました (DatabaseManager)</string>
 	<string name="log_purge_service_error_create">エラーが発生しました (PurgeService : onCreate)</string>
