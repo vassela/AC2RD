@@ -10,7 +10,7 @@
 [![download](https://img.shields.io/badge/download-latest-blue.svg?style=flat)](https://github.com/vassela/AC2RD/blob/master/bin/AC2RD.apk)
 [![download](https://img.shields.io/badge/wiki-user%20manual-blueviolet.svg?style=flat)](https://github.com/vassela/AC2RD/wiki/User-manual)
 [![download](https://img.shields.io/badge/wiki-developer%20guide-blueviolet.svg?style=flat)](https://github.com/vassela/AC2RD/wiki/Developer-guide)
-[![maitained](https://img.shields.io/badge/maitained-no%20(as%20of%202017)-red.svg?style=flat)](https://github.com/vassela/AC2RD)
+[![maitained](https://img.shields.io/badge/maitained-no%20(as%20of%202018)-red.svg?style=flat)](https://github.com/vassela/AC2RD)
 
 AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone calls recording software developed for the mobile operating system Android, including the functionality of replayer, and that of dictaphone.
 
