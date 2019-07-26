@@ -2,6 +2,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/89385025d232483e972af30d7e1600a5)](https://app.codacy.com/app/vassela/AC2RD?utm_source=github.com&utm_medium=referral&utm_content=vassela/AC2RD&utm_campaign=Badge_Grade_Dashboard)
 [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9)
 [![target API](https://img.shields.io/badge/target%20API-24-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=24)
+[![language](https://img.shields.io/badge/language-java-blue.svg?style=flat)](https://www.java.com)
 [![JDK](https://img.shields.io/badge/JDK-1.7%2B-blue.svg?style=flat)](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 [![android.support](https://img.shields.io/badge/android.support-appcompat--v7-blue.svg?style=flat)](https://github.com/vassela/android-support-v7-appcompat)
 [![license](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat)](https://www.gnu.org/licenses/gpl-3.0)
