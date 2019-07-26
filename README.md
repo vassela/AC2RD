@@ -1,5 +1,7 @@
 # AC2RD
 
+<a href="https://github.com/vassela/AC2RD/blob/master/bin/AC2RD.apk"><img src="https://img.shields.io/badge/download-latest-blue"></a>
+
 AC2RD (Android Call Recorder Replayer Dictaphone) is a free automatic phone calls recording software developed for the mobile operating system Android, including the functionality of replayer, and that of dictaphone.
 
 ## Main features :
