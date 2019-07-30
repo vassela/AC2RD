@@ -368,7 +368,7 @@
 	<string name="log_acquitment_error_click">Se ha producido un error (Acquitment: onClick)</string>
 	<string name="log_main_error_create">Se ha producido un error (Main: onCreate)</string>
 	<string name="log_database_manager_error_request">Se ha producido un error (DatabaseManager)</string>
-	<string name="log_purge_service_error_create">Se ha producido un error (PurgeService : onCreate)</string>
+	<string name="log_purge_service_error_create">Se ha producido un error (PurgeService: onCreate)</string>
 	<string name="log_purge_service_start_command">Lanzamiento del servicio : PurgeService</string>
 	<string name="log_purge_service_error_start_command">Se ha producido un error (PurgeService : onStartCommand)</string>
 	<string name="log_purge_service_destroy">Parada del servicio : PurgeService</string>
