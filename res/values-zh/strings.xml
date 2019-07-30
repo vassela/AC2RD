@@ -368,7 +368,7 @@
 	<string name="log_acquitment_error_click">发生了错误 (Acquitment: onClick)</string>
 	<string name="log_main_error_create">发生了错误 (Main: onCreate)</string>
 	<string name="log_database_manager_error_request">发生了错误 (DatabaseManager)</string>
-	<string name="log_purge_service_error_create">发生了错误 (PurgeService : onCreate)</string>
+	<string name="log_purge_service_error_create">发生了错误 (PurgeService: onCreate)</string>
 	<string name="log_purge_service_start_command">启动服务 : PurgeService</string>
 	<string name="log_purge_service_error_start_command">发生了错误 (PurgeService : onStartCommand)</string>
 	<string name="log_purge_service_destroy">停止服务 : PurgeService</string>
