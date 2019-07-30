@@ -368,7 +368,7 @@
 	<string name="log_acquitment_error_click">حدث خطأ (Acquitment: onClick)</string>
 	<string name="log_main_error_create">حدث خطأ (Main: onCreate)</string>
 	<string name="log_database_manager_error_request">حدث خطأ (DatabaseManager)</string>
-	<string name="log_purge_service_error_create">حدث خطأ (PurgeService : onCreate)</string>
+	<string name="log_purge_service_error_create">حدث خطأ (PurgeService: onCreate)</string>
 	<string name="log_purge_service_start_command">إطلاق الخدمة: بورجيسرفيس</string>
 	<string name="log_purge_service_error_start_command">حدث خطأ (PurgeService : onStartCommand)</string>
 	<string name="log_purge_service_destroy">إيقاف الخدمة: بورجيسرفيس</string>
