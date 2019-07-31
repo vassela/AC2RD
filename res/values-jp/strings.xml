@@ -370,7 +370,7 @@
 	<string name="log_database_manager_error_request">エラーが発生しました (DatabaseManager)</string>
 	<string name="log_purge_service_error_create">エラーが発生しました (PurgeService: onCreate)</string>
 	<string name="log_purge_service_start_command">サービスの開始： PurgeService</string>
-	<string name="log_purge_service_error_start_command">エラーが発生しました (PurgeService : onStartCommand)</string>
+	<string name="log_purge_service_error_start_command">エラーが発生しました (PurgeService: onStartCommand)</string>
 	<string name="log_purge_service_destroy">サービスの停止： PurgeService</string>
 	<string name="log_purge_service_error_destroy">エラーが発生しました (PurgeService : onDestroy)</string>
 	<string name="log_purge_manager_error_record_file_not_exists">ファイルが見つかりません。</string>
