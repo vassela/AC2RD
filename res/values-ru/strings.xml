@@ -370,7 +370,7 @@
 	<string name="log_database_manager_error_request">произошла ошибка (DatabaseManager)</string>
 	<string name="log_purge_service_error_create">произошла ошибка (PurgeService: onCreate)</string>
 	<string name="log_purge_service_start_command">Запуск службы : PurgeService</string>
-	<string name="log_purge_service_error_start_command">произошла ошибка (PurgeService : onStartCommand)</string>
+	<string name="log_purge_service_error_start_command">произошла ошибка (PurgeService: onStartCommand)</string>
 	<string name="log_purge_service_destroy">Остановка службы : PurgeService</string>
 	<string name="log_purge_service_error_destroy">произошла ошибка (PurgeService : onDestroy)</string>
 	<string name="log_purge_manager_error_record_file_not_exists">Файл не найден</string>
