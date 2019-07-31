@@ -370,7 +370,7 @@
 	<string name="log_database_manager_error_request">Ein Fehler ist aufgetreten (DatabaseManager)</string>
 	<string name="log_purge_service_error_create">Ein Fehler ist aufgetreten (PurgeService: onCreate)</string>
 	<string name="log_purge_service_start_command">Start des Dienstes : PurgeService</string>
-	<string name="log_purge_service_error_start_command">Ein Fehler ist aufgetreten (PurgeService : onStartCommand)</string>
+	<string name="log_purge_service_error_start_command">Ein Fehler ist aufgetreten (PurgeService: onStartCommand)</string>
 	<string name="log_purge_service_destroy">Stopp des Dienstes : PurgeService</string>
 	<string name="log_purge_service_error_destroy">Ein Fehler ist aufgetreten (PurgeService : onDestroy)</string>
 	<string name="log_purge_manager_error_record_file_not_exists">Datei nicht gefunden</string>
