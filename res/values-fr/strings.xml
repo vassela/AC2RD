@@ -370,7 +370,7 @@
 	<string name="log_database_manager_error_request">Une erreur est survenue (DatabaseManager)</string>
 	<string name="log_purge_service_error_create">Une erreur est survenue (PurgeService: onCreate)</string>
 	<string name="log_purge_service_start_command">Lancement du service : PurgeService</string>
-	<string name="log_purge_service_error_start_command">Une erreur est survenue (PurgeService : onStartCommand)</string>
+	<string name="log_purge_service_error_start_command">Une erreur est survenue (PurgeService: onStartCommand)</string>
 	<string name="log_purge_service_destroy">Arrêt du service : PurgeService</string>
 	<string name="log_purge_service_error_destroy">Une erreur est survenue (PurgeService : onDestroy)</string>
 	<string name="log_purge_manager_error_record_file_not_exists">Fichier introuvable</string>
